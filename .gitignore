@@ -1,0 +1,15 @@
+# Python virtual environment (do not commit)
+quantum_project/
+venv/
+.venv/
+
+# Editor / tooling state
+.claude/
+
+# macOS
+.DS_Store
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
