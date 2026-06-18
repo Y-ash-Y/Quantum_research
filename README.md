@@ -55,13 +55,6 @@ pip install -r requirements.txt
 jupyter notebook notebooks/main.ipynb   # run all cells; regenerates results/figures/
 ```
 
-## Building the report
-No LaTeX is bundled. Use [Overleaf](https://overleaf.com) (compiler: pdfLaTeX) or a
-local TeX install:
-```bash
-cd paper && pdflatex report.tex
-```
-
 ## Method notes
 - The simulator (`src/bb84/simulator.py`) runs real single-qubit Qiskit-Aer
   circuits through a depolarizing channel, with a Monte-Carlo photon-number/decoy
