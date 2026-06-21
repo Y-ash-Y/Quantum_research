@@ -4,4 +4,5 @@ matplotlib
 scikit-learn
 qiskit
 qiskit-aer
+torch
 jupyter

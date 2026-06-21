@@ -31,12 +31,42 @@ Two attacks are modelled, both kept below the 11% threshold:
 - The simulator is validated against closed-form QKD theory, and runs are
   reproducible via a seed.
 
+### Detector coverage under an adaptive eavesdropper
+Treating detection as a game where Eve adaptively picks her attack *channel*:
+- **Detector robustness = feature coverage.** A QBER-only or asymmetry-aware
+  detector is evaded at **every** information level (Eve switches to PNS); only a
+  **decoy-aware/combined** detector is robust.
+- The residual low-information gap is a **finite-key stealth floor**: at a fixed
+  attack, combined-detector detection rises **0.14 → 0.64 → 0.96** as the key grows
+  (2k → 6k → 20k pulses).
+
+## Status & relation to prior work
+This is a **completed, self-contained reproduction / learning project**, not a claim
+of novel results. Its findings are consistent with — and were verified against — the
+recent literature:
+- The adaptive-eavesdropper detection game with decoy-aware/temporal detectors and a
+  finite-key stealth floor is developed more rigorously (entropy-accumulation bounds,
+  more attack families) in [arXiv:2603.03502](https://arxiv.org/abs/2603.03502).
+- Multi-attack DV-QKD detection with CNN/LSTM/quantum-LSTM appears in
+  [arXiv:2509.14282](https://arxiv.org/abs/2509.14282).
+- Decoy-state detection of PNS is standard (Lo–Ma–Chen, 2005); game-theoretic
+  detection-probability framings predate this work.
+
+The value here is a **theory-validated, transparent, single-codebase testbed** that
+independently reproduces these effects (sub-threshold detection gap, quantum-kernel
+concentration pitfall, coverage/stealth-floor behaviour) with honestly reported
+negative results. "Adversarial" means an *adaptive eavesdropper choosing a physical
+attack strategy* — distinct from input-perturbation adversarial *examples* on
+quantum classifiers.
+
 ## Project layout
 ```
 src/
   bb84/          photon/decoy-state BB84 simulator + sub-threshold dataset
   classical_ml/  classical models and evaluation utilities
   quantum_ml/    quantum-kernel SVM (exact statevector ZZFeatureMap kernel)
+  sequence_ml/   1D-CNN on raw sifted-error sequences (temporal attacks)
+  adversarial/   eavesdropper-vs-detector game (channel palette, best-response)
 notebooks/
   main.ipynb     end-to-end experiment driver (generates all figures, ~30 s)
 results/figures/ generated plots

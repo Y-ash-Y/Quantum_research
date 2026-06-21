@@ -41,7 +41,17 @@ detected perfectly (AUC $1.00$) through the decoy/signal gain ratio alone, exact
 decoy-state theory predicts. Finally, a quantum-kernel SVM with a naive encoding
 fails (AUC $0.58$) due to exponential kernel concentration, but becomes competitive
 with classical baselines once the encoding is tuned (AUC $0.95$) --- competitive, but
-with no quantum advantage on this low-dimensional task.
+with no quantum advantage on this low-dimensional task. We further show that a
+\emph{duty-cycled} attacker with statistics identical to a continuous one is
+invisible to all aggregate features (AUC $0.58$) yet detected by a 1D convolutional
+network on the raw sifted-error sequence (AUC $0.96$), extending the thesis from
+multivariate to sequential channel monitoring. Finally, treating detection as an
+adaptive-attacker game, we reproduce the result that a detector's robustness is
+governed by its feature \emph{coverage}: an eavesdropper who adaptively selects her
+attack channel evades
+any detector blind to a channel's signature (a QBER-only detector is defeated by
+PNS at every information level), while a feature-complete detector leaves only a
+finite-key stealth floor that vanishes as the key length grows.
 \end{abstract}
 
 \section{Introduction}
@@ -131,6 +141,13 @@ random forest, and an SVM (classical), and a quantum-kernel SVM using a
 \texttt{ZZFeatureMap} fidelity kernel $K(x_i,x_j)=|\langle\phi(x_i)|\phi(x_j)\rangle|^2$
 computed exactly from statevectors. The dataset has 800 sessions of 6000 pulses each
 (attack ratio $0.47$); results use 5-fold stratified cross-validation.
+
+\paragraph{Sequence model.} For the temporal experiment, the simulator emits the
+raw length-256 sifted-error sequence over a lossless channel. We classify these
+sequences with a 1D-CNN (two convolutional blocks, coarse adaptive pooling, a small
+dense head; trained with Adam and binary cross-entropy), against two baselines: a
+random forest on the mean error rate (the scalar a threshold sees) and a random
+forest on hand-crafted temporal features.
 
 \section{Results}
 \paragraph{All attacks are sub-threshold.} Figure~\ref{fig:subthreshold} shows the
@@ -248,6 +265,103 @@ with classical but offering no advantage.
   to avoid exponential concentration ($0.58 \rightarrow 0.95$).}
 \end{figure}
 
+\paragraph{Temporally-structured attacks.} The detectors above use aggregate
+statistics. A \emph{duty-cycled} eavesdropper can match all of them --- mean QBER,
+basis symmetry, gains --- while hiding the attack in the time-ordering of the
+errors. We compare a continuous symmetric intercept--resend attacker against a
+bursty one driven by a two-state telegraph process, generated at the \emph{same}
+mean QBER (Fig.~\ref{fig:tempseq}). A scalar detector on the mean error rate is at
+chance (AUC $0.584$); hand-crafted temporal features (autocorrelation, run-length,
+window-density variance) reach AUC $0.910$; and a 1D convolutional network on the
+\emph{raw} sifted-error sequence reaches AUC $0.955$ (Fig.~\ref{fig:tempdet}),
+learning the clustering signature directly from the bit stream.
+
+\begin{figure}[t]
+  \centering
+  \begin{subfigure}{0.55\textwidth}
+    \includegraphics[width=\linewidth]{temporal_examples.png}
+    \caption{Raw error sequences (same mean QBER).}
+    \label{fig:tempseq}
+  \end{subfigure}\hfill
+  \begin{subfigure}{0.42\textwidth}
+    \includegraphics[width=\linewidth]{temporal_detection.png}
+    \caption{Detection AUC by model.}
+    \label{fig:tempdet}
+  \end{subfigure}
+  \caption{Continuous vs.\ bursty intercept--resend at matched aggregate
+  statistics. The error clustering (left) is invisible to a scalar detector
+  (AUC $0.58$) but recovered by a 1D-CNN on the raw sequence (AUC $0.96$).}
+\end{figure}
+
+\section{Detector coverage under an adaptive eavesdropper}
+All results so far evaluate detectors against \emph{fixed} attacks. A real
+adversary adapts. We study detection as a game: Eve chooses an attack
+\emph{policy} over a palette of channels --- intercept--resend, basis-biased IR,
+and gain-matched PNS --- parameterised so they share a single information axis,
+the fraction $I$ of the sifted key Eve learns (PNS pulses fully; IR pulses when
+her random basis matched). We compare four detectors of increasing feature
+coverage (QBER-only, asymmetry-aware, decoy-aware, combined), each calibrated to a
+$5\%$ false-alarm rate, and measure Eve's \emph{best response}: the minimum
+detection she can force at a target $I$ by searching pure-IR, biased-IR, pure-PNS,
+and mixed policies.
+
+Figure~\ref{fig:advfront} shows two distinct failure modes:
+\begin{itemize}
+  \item \textbf{Coverage failure (qualitative).} The QBER-only and asymmetry-aware
+  detectors sit at the invisibility floor ($\approx5\%$) for \emph{every}
+  information level --- Eve simply switches to PNS, whose signature they never
+  measure. No amount of data fixes this; the feature is absent.
+  \item \textbf{Finite-key stealth (quantitative).} Decoy-aware and combined
+  detectors do catch PNS, with detection rising as Eve steals more. The residual
+  gap at low $I$ is a finite-key effect: for a fixed attack the decoy anomaly is
+  constant, so detection is limited only by sampling noise. Holding the attack at
+  $I\!\approx\!0.37$ and increasing the key length, the combined detector's
+  detection rises from $0.14$ (2k pulses) to $0.64$ (6k) to $0.96$ (20k)
+  (Fig.~\ref{fig:floor}), matching the finite-key intuition of the
+  Hoeffding/confidence-interval analyses~\cite{lee,rath}.
+\end{itemize}
+Notably, splitting information across channels does not help Eve: against the
+combined detector, concentrating in PNS is her dominant strategy, because the
+decoy signature is cheaper to hide per stolen bit than the QBER signature.
+
+\begin{figure}[t]
+  \centering
+  \begin{subfigure}{0.56\textwidth}
+    \includegraphics[width=\linewidth]{adversarial_frontier.png}
+    \caption{Best-response detection vs.\ information.}
+    \label{fig:advfront}
+  \end{subfigure}\hfill
+  \begin{subfigure}{0.41\textwidth}
+    \includegraphics[width=\linewidth]{stealth_floor.png}
+    \caption{Stealth floor is finite-key.}
+    \label{fig:floor}
+  \end{subfigure}
+  \caption{Detector robustness is governed by feature coverage:
+  detectors missing the decoy signature are evaded at all information levels;
+  feature-complete detectors leave only a finite-key stealth floor that shrinks
+  with key length.}
+\end{figure}
+
+\section{Relation to prior work}
+This study is a self-contained reimplementation; its findings are consistent with,
+and were verified against, the recent literature rather than claimed as new. The
+adaptive-eavesdropper game with a learning defender, multivariate decoy-aware
+features, temporal detectors, and a finite-key stealth floor is developed more
+rigorously --- with entropy-accumulation finite-key bounds and additional attack
+families (time-shift, detector blinding, Trojan-horse) --- by Al-Mohammed and
+Al-Ali~\cite{advgame}; multi-attack DV-QKD detection with CNN/LSTM/quantum-LSTM
+classifiers appears in~\cite{qlstm}; and the game-theoretic ``maximise vs.\
+minimise detection probability'' framing with Pareto conditions over protocol
+parameters predates both~\cite{gametheory}. The decoy-state mechanism for catching
+PNS is itself standard~\cite{decoy}. Our contribution is therefore pedagogical and
+methodological: a theory-validated, reproducible BB84 testbed that independently
+reproduces these qualitative effects --- the sub-threshold detection gap, the
+quantum-kernel concentration pitfall, and the coverage/stealth-floor behaviour ---
+on a single transparent codebase, with honestly reported negative results. We
+emphasise that ``adversarial'' here means an adaptive eavesdropper choosing a
+physical attack strategy, distinct from input-perturbation \emph{adversarial
+examples} on quantum classifiers~\cite{qmlsok}.
+
 \section{Discussion}
 The central finding is operationally meaningful: the BB84 QBER threshold, used in
 practice as a go/no-go check, fails against attacks engineered to sit below it,
@@ -266,18 +380,23 @@ favourable configuration.
 
 \paragraph{Limitations.} The photon model is a simplified Monte-Carlo abstraction (no
 dark counts, after-pulsing, or finite-key corrections), the noise is idealised
-depolarizing, and only two attack families are studied. Extending to finite-key
-statistics, additional attacks (Trojan-horse, time-shift), and raw time-series
-features are natural next steps.
+depolarizing, and the attack set, though spanning aggregate and temporal regimes,
+is not exhaustive. Extending to finite-key statistics and further attacks
+(Trojan-horse, time-shift, detector-blinding) are natural next steps.
 
 \section{Conclusion}
 Sub-threshold eavesdropping defeats the standard BB84 QBER test but not machine
 learning on richer channel statistics: a random forest detects \SI{87}{\percent} of
 attacks that the threshold catches at \SI{0.8}{\percent}, and detects gain-matched PNS
---- invisible to both QBER and signal gain --- perfectly via the decoy ratio. A
-quantum kernel offers no advantage and fails outright if naively configured. The work
-argues for treating QKD eavesdropping detection as a multivariate statistical problem
-rather than a single-threshold check.
+--- invisible to both QBER and signal gain --- perfectly via the decoy ratio.
+Temporally-structured attacks that match every aggregate statistic are likewise
+invisible to scalar detectors but recovered by a 1D-CNN on the raw error sequence.
+Under an adaptive attacker, detector robustness reduces to feature coverage: an
+adaptive eavesdropper defeats any detector blind to a channel's signature, while a
+feature-complete detector leaves only a finite-key stealth floor. A quantum kernel
+offers no advantage and fails outright if naively configured. The work argues for
+treating QKD eavesdropping detection as a multivariate, sequential, and
+\emph{adversarial} statistical problem rather than a single-threshold check.
 
 \begin{thebibliography}{9}
 \bibitem{bb84} C.\ H.\ Bennett and G.\ Brassard, ``Quantum cryptography: Public key
@@ -288,6 +407,22 @@ BB84 quantum key distribution protocol,'' \emph{Phys.\ Rev.\ Lett.} \textbf{85},
 (2000).
 \bibitem{decoy} H.-K.\ Lo, X.\ Ma, and K.\ Chen, ``Decoy state quantum key
 distribution,'' \emph{Phys.\ Rev.\ Lett.} \textbf{94}, 230504 (2005).
+\bibitem{lee} C.\ Lee, I.\ Sohn, and W.\ Lee, ``Eavesdropping detection in BB84
+quantum key distribution protocols,'' \emph{IEEE Trans.\ Netw.\ Service Manag.}
+\textbf{19}(3), 2689 (2022).
+\bibitem{rath} J.\ Rath, P.\ Panth, and P.\ S.\ N.\ Bhaskar, ``Quantum bit error
+rate analysis in BB84: measurement, statistical estimation, and eavesdropping
+detection,'' arXiv:2603.27278 (2026).
+\bibitem{survey} A.\ Al-Kuwari et al., ``Machine learning techniques for enhancing
+quantum key distribution,'' arXiv:2603.07384 (2026).
+\bibitem{advgame} H.\ A.\ Al-Mohammed and A.\ S.\ Al-Ali, ``Adversarial learning
+game for intrusion detection in quantum key distribution,'' arXiv:2603.03502 (2026).
+\bibitem{qlstm} ``Resisting quantum key distribution attacks using quantum machine
+learning,'' arXiv:2509.14282 (2025).
+\bibitem{gametheory} V.\ Kaplan and others, ``A game-theoretic security framework
+for quantum cryptography,'' in \emph{Springer LNCS}, 2018.
+\bibitem{qmlsok} Y.\ A.\ Kustiawan and K.\ I.\ Ghauth, ``Adversarial robustness in
+quantum machine learning: a scoping review,'' \emph{Computers} \textbf{15}, 233 (2026).
 \end{thebibliography}
 
 \end{document}
