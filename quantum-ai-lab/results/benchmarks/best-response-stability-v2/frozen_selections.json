@@ -1,0 +1,1089 @@
+{
+  "responses": [
+    {
+      "floor": 0.0025,
+      "winner_a": 16,
+      "winner_b": 4,
+      "winner_pooled": 4,
+      "previous_policy": 2,
+      "shortlist": [
+        0,
+        2,
+        4,
+        8,
+        14,
+        16
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 0,
+      "floor_id": 0,
+      "pooled_search_alarms": 34
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 50,
+      "winner_b": 40,
+      "winner_pooled": 41,
+      "previous_policy": 38,
+      "shortlist": [
+        36,
+        38,
+        40,
+        41,
+        42,
+        44,
+        50
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 0,
+      "floor_id": 1,
+      "pooled_search_alarms": 69
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 77,
+      "winner_b": 75,
+      "winner_pooled": 75,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80,
+        85
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 0,
+      "floor_id": 2,
+      "pooled_search_alarms": 178
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 0,
+      "floor_id": 3,
+      "pooled_search_alarms": 642
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 12,
+      "winner_b": 3,
+      "winner_pooled": 3,
+      "previous_policy": 6,
+      "shortlist": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        12
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 1,
+      "floor_id": 0,
+      "pooled_search_alarms": 44
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 39,
+      "winner_b": 41,
+      "winner_pooled": 41,
+      "previous_policy": 38,
+      "shortlist": [
+        36,
+        38,
+        39,
+        40,
+        41,
+        44
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 1,
+      "floor_id": 1,
+      "pooled_search_alarms": 104
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 1,
+      "floor_id": 2,
+      "pooled_search_alarms": 328
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 1,
+      "floor_id": 3,
+      "pooled_search_alarms": 948
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 2,
+      "winner_b": 23,
+      "winner_pooled": 6,
+      "previous_policy": 6,
+      "shortlist": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        23
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 2,
+      "floor_id": 0,
+      "pooled_search_alarms": 61
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 39,
+      "winner_b": 41,
+      "winner_pooled": 39,
+      "previous_policy": 42,
+      "shortlist": [
+        36,
+        39,
+        40,
+        41,
+        42,
+        44
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 2,
+      "floor_id": 1,
+      "pooled_search_alarms": 139
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 2,
+      "floor_id": 2,
+      "pooled_search_alarms": 545
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 2,
+      "floor_id": 3,
+      "pooled_search_alarms": 1018
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 5,
+      "winner_b": 5,
+      "winner_pooled": 5,
+      "previous_policy": 6,
+      "shortlist": [
+        0,
+        4,
+        5,
+        6,
+        8,
+        12,
+        13
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 3,
+      "floor_id": 0,
+      "pooled_search_alarms": 57
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 40,
+      "winner_pooled": 40,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        39,
+        40,
+        44
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 3,
+      "floor_id": 1,
+      "pooled_search_alarms": 159
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 3,
+      "floor_id": 2,
+      "pooled_search_alarms": 592
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 113,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 3,
+      "floor_id": 3,
+      "pooled_search_alarms": 1022
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 3,
+      "winner_b": 13,
+      "winner_pooled": 3,
+      "previous_policy": 6,
+      "shortlist": [
+        0,
+        3,
+        4,
+        6,
+        8,
+        13,
+        23
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 4,
+      "floor_id": 0,
+      "pooled_search_alarms": 61
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 39,
+      "winner_pooled": 40,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        39,
+        40,
+        44
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 4,
+      "floor_id": 1,
+      "pooled_search_alarms": 141
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 4,
+      "floor_id": 2,
+      "pooled_search_alarms": 591
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 4,
+      "floor_id": 3,
+      "pooled_search_alarms": 1016
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 0,
+      "winner_b": 12,
+      "winner_pooled": 3,
+      "previous_policy": 4,
+      "shortlist": [
+        0,
+        3,
+        4,
+        8,
+        12,
+        24
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 5,
+      "floor_id": 0,
+      "pooled_search_alarms": 55
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 41,
+      "winner_b": 41,
+      "winner_pooled": 41,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        38,
+        40,
+        41,
+        44
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 5,
+      "floor_id": 1,
+      "pooled_search_alarms": 119
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 77,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 5,
+      "floor_id": 2,
+      "pooled_search_alarms": 401
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 5,
+      "floor_id": 3,
+      "pooled_search_alarms": 974
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 14,
+      "winner_b": 4,
+      "winner_pooled": 4,
+      "previous_policy": 2,
+      "shortlist": [
+        0,
+        2,
+        4,
+        8,
+        14,
+        24
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 6,
+      "floor_id": 0,
+      "pooled_search_alarms": 35
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 41,
+      "winner_pooled": 41,
+      "previous_policy": 42,
+      "shortlist": [
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        48
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 6,
+      "floor_id": 1,
+      "pooled_search_alarms": 57
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 75,
+      "winner_b": 75,
+      "winner_pooled": 75,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 6,
+      "floor_id": 2,
+      "pooled_search_alarms": 131
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 6,
+      "floor_id": 3,
+      "pooled_search_alarms": 503
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 4,
+      "winner_b": 3,
+      "winner_pooled": 4,
+      "previous_policy": 4,
+      "shortlist": [
+        0,
+        3,
+        4,
+        5,
+        8
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 7,
+      "floor_id": 0,
+      "pooled_search_alarms": 37
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 39,
+      "winner_pooled": 40,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        39,
+        40,
+        41,
+        44,
+        48
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 7,
+      "floor_id": 1,
+      "pooled_search_alarms": 69
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 7,
+      "floor_id": 2,
+      "pooled_search_alarms": 178
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 7,
+      "floor_id": 3,
+      "pooled_search_alarms": 673
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 12,
+      "winner_b": 4,
+      "winner_pooled": 4,
+      "previous_policy": 6,
+      "shortlist": [
+        0,
+        3,
+        4,
+        6,
+        8,
+        12
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 8,
+      "floor_id": 0,
+      "pooled_search_alarms": 47
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 39,
+      "winner_pooled": 39,
+      "previous_policy": 42,
+      "shortlist": [
+        36,
+        39,
+        40,
+        41,
+        42,
+        44,
+        49
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 8,
+      "floor_id": 1,
+      "pooled_search_alarms": 112
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 8,
+      "floor_id": 2,
+      "pooled_search_alarms": 380
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 8,
+      "floor_id": 3,
+      "pooled_search_alarms": 988
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 4,
+      "winner_b": 4,
+      "winner_pooled": 4,
+      "previous_policy": 4,
+      "shortlist": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 9,
+      "floor_id": 0,
+      "pooled_search_alarms": 47
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 40,
+      "winner_pooled": 40,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        39,
+        40,
+        41,
+        44
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 9,
+      "floor_id": 1,
+      "pooled_search_alarms": 163
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 9,
+      "floor_id": 2,
+      "pooled_search_alarms": 619
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 9,
+      "floor_id": 3,
+      "pooled_search_alarms": 1021
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 14,
+      "winner_b": 5,
+      "winner_pooled": 6,
+      "previous_policy": 0,
+      "shortlist": [
+        0,
+        4,
+        5,
+        6,
+        8,
+        14
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 10,
+      "floor_id": 0,
+      "pooled_search_alarms": 64
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 40,
+      "winner_b": 40,
+      "winner_pooled": 40,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        39,
+        40,
+        41,
+        44
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 10,
+      "floor_id": 1,
+      "pooled_search_alarms": 155
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 10,
+      "floor_id": 2,
+      "pooled_search_alarms": 624
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 113,
+      "winner_pooled": 113,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 10,
+      "floor_id": 3,
+      "pooled_search_alarms": 1018
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 3,
+      "winner_b": 4,
+      "winner_pooled": 3,
+      "previous_policy": 4,
+      "shortlist": [
+        0,
+        3,
+        4,
+        5,
+        8,
+        20
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 11,
+      "floor_id": 0,
+      "pooled_search_alarms": 59
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 41,
+      "winner_b": 40,
+      "winner_pooled": 40,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        40,
+        41,
+        44
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 11,
+      "floor_id": 1,
+      "pooled_search_alarms": 122
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 75,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        80
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 11,
+      "floor_id": 2,
+      "pooled_search_alarms": 482
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 112,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 11,
+      "floor_id": 3,
+      "pooled_search_alarms": 998
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 3,
+      "winner_b": 7,
+      "winner_pooled": 3,
+      "previous_policy": 2,
+      "shortlist": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        15
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 12,
+      "floor_id": 0,
+      "pooled_search_alarms": 48
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 41,
+      "winner_b": 40,
+      "winner_pooled": 41,
+      "previous_policy": 40,
+      "shortlist": [
+        36,
+        40,
+        41,
+        44,
+        50
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 12,
+      "floor_id": 1,
+      "pooled_search_alarms": 80
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 76,
+      "winner_b": 76,
+      "winner_pooled": 76,
+      "previous_policy": 76,
+      "shortlist": [
+        72,
+        75,
+        76,
+        77,
+        80
+      ],
+      "independent_searches_agree": true,
+      "plan_id": 12,
+      "floor_id": 2,
+      "pooled_search_alarms": 233
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 111,
+      "winner_b": 112,
+      "winner_pooled": 112,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        111,
+        112,
+        113,
+        116
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 12,
+      "floor_id": 3,
+      "pooled_search_alarms": 825
+    },
+    {
+      "floor": 0.0025,
+      "winner_a": 2,
+      "winner_b": 37,
+      "winner_pooled": 2,
+      "previous_policy": 35,
+      "shortlist": [
+        0,
+        2,
+        4,
+        8,
+        22,
+        25,
+        35,
+        37
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 13,
+      "floor_id": 0,
+      "pooled_search_alarms": 7
+    },
+    {
+      "floor": 0.005,
+      "winner_a": 64,
+      "winner_b": 37,
+      "winner_pooled": 37,
+      "previous_policy": 78,
+      "shortlist": [
+        36,
+        37,
+        40,
+        44,
+        61,
+        64,
+        69,
+        78
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 13,
+      "floor_id": 1,
+      "pooled_search_alarms": 7
+    },
+    {
+      "floor": 0.01,
+      "winner_a": 109,
+      "winner_b": 85,
+      "winner_pooled": 113,
+      "previous_policy": 105,
+      "shortlist": [
+        72,
+        76,
+        80,
+        85,
+        98,
+        104,
+        105,
+        109,
+        113
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 13,
+      "floor_id": 2,
+      "pooled_search_alarms": 8
+    },
+    {
+      "floor": 0.02,
+      "winner_a": 109,
+      "winner_b": 122,
+      "winner_pooled": 113,
+      "previous_policy": 112,
+      "shortlist": [
+        108,
+        109,
+        112,
+        113,
+        116,
+        118,
+        122,
+        144
+      ],
+      "independent_searches_agree": false,
+      "plan_id": 13,
+      "floor_id": 3,
+      "pooled_search_alarms": 8
+    }
+  ],
+  "defender_plans": [
+    {
+      "regime": "fixed_fraction",
+      "floor_id": 0,
+      "plan_id": 2,
+      "policy_id": 6
+    },
+    {
+      "regime": "fixed_fraction",
+      "floor_id": 1,
+      "plan_id": 3,
+      "policy_id": 40
+    },
+    {
+      "regime": "fixed_fraction",
+      "floor_id": 2,
+      "plan_id": 3,
+      "policy_id": 76
+    },
+    {
+      "regime": "fixed_fraction",
+      "floor_id": 3,
+      "plan_id": 3,
+      "policy_id": 112
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "floor_id": 0,
+      "plan_id": 10,
+      "policy_id": 6
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "floor_id": 1,
+      "plan_id": 9,
+      "policy_id": 40
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "floor_id": 2,
+      "plan_id": 10,
+      "policy_id": 76
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "floor_id": 3,
+      "plan_id": 9,
+      "policy_id": 112
+    }
+  ],
+  "evaluation_cells": 306
+}

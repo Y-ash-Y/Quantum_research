@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 344064,
+  "original_decision_replays": 344064,
+  "reflection_pvalue_rows_replayed": 344064,
+  "independent_scalar_decisions": 1008,
+  "fresh_cells_checked": 336,
+  "contrasts_checked": 16,
+  "continuous_covers_checked": 112,
+  "corner_KLs_checked": 20160,
+  "source_hashes_checked": 9,
+  "input_hashes_checked": 1,
+  "output_hashes_checked": 5,
+  "limits": "Full replay shares scorers; sampled scalar APIs and independent rel_entr share SciPy. Floating bounds are not outward-rounded certificates."
+}

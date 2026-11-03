@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 110592,
+  "decision_replays": 331776,
+  "rate_cells": 648,
+  "effect_cells": 216,
+  "independent_sampled_decisions": 1944,
+  "seed_reproduced_pairs": 110592,
+  "source_fingerprints": 11,
+  "limits": "Scalar checks cover first/middle/last rows; CP references share SciPy. No rounding/hardware/continuous-power/priority certificate."
+}

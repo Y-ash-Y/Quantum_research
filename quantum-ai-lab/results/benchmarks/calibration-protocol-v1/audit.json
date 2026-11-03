@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 12000,
+  "decision_replays": 24000,
+  "independent_sampled_decisions": 180,
+  "summary_cells_reconciled": 60,
+  "source_hashes_checked": 3,
+  "limits": "Replay shares the scorer; independent scalar decisions cover sampled rows only."
+}

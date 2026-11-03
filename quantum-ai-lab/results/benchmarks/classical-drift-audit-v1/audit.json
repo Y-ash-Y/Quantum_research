@@ -1,0 +1,1896 @@
+{
+  "status": "complete-retrospective-replay",
+  "pairs": 12288,
+  "cohorts": 24,
+  "cells": [
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 15,
+      "trials": 512,
+      "rate": 0.029296875,
+      "ci95_marginal": [
+        0.01648801460911842,
+        0.04786087313588523
+      ],
+      "ci_joint_nominal": [
+        0.009607936468110747,
+        0.06582412455369555
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 10,
+      "trials": 512,
+      "rate": 0.01953125,
+      "ci95_marginal": [
+        0.009404755122447008,
+        0.035624636181676994
+      ],
+      "ci_joint_nominal": [
+        0.004629766731329985,
+        0.05170860358921501
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 2,
+      "trials": 512,
+      "rate": 0.00390625,
+      "ci95_marginal": [
+        0.0004734155742531004,
+        0.014038905114244559
+      ],
+      "ci_joint_nominal": [
+        3.66574859813041e-05,
+        0.02567168168234588
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 11,
+      "trials": 512,
+      "rate": 0.021484375,
+      "ci95_marginal": [
+        0.01077255408609197,
+        0.03811577167548383
+      ],
+      "ci_joint_nominal": [
+        0.00554567130902476,
+        0.05460849440221019
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 5,
+      "trials": 512,
+      "rate": 0.009765625,
+      "ci95_marginal": [
+        0.0031782607998062633,
+        0.02264162068722705
+      ],
+      "ci_joint_nominal": [
+        0.0009817643572849503,
+        0.03629675568348387
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 15,
+      "trials": 512,
+      "rate": 0.029296875,
+      "ci95_marginal": [
+        0.01648801460911842,
+        0.04786087313588523
+      ],
+      "ci_joint_nominal": [
+        0.009607936468110747,
+        0.06582412455369555
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 8,
+      "trials": 512,
+      "rate": 0.015625,
+      "ci95_marginal": [
+        0.006769276942972374,
+        0.030554414950524585
+      ],
+      "ci_joint_nominal": [
+        0.0029559258170685568,
+        0.04575588430171944
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 11,
+      "trials": 512,
+      "rate": 0.021484375,
+      "ci95_marginal": [
+        0.01077255408609197,
+        0.03811577167548383
+      ],
+      "ci_joint_nominal": [
+        0.00554567130902476,
+        0.05460849440221019
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 5,
+      "trials": 512,
+      "rate": 0.009765625,
+      "ci95_marginal": [
+        0.0031782607998062633,
+        0.02264162068722705
+      ],
+      "ci_joint_nominal": [
+        0.0009817643572849503,
+        0.03629675568348387
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 168,
+      "trials": 512,
+      "rate": 0.328125,
+      "ci95_marginal": [
+        0.28757209715502574,
+        0.37067650019233067
+      ],
+      "ci_joint_nominal": [
+        0.2564065582981887,
+        0.40585505426833546
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 415,
+      "trials": 512,
+      "rate": 0.810546875,
+      "ci95_marginal": [
+        0.773869612060043,
+        0.84359169123757
+      ],
+      "ci_joint_nominal": [
+        0.7424783509894117,
+        0.8677204239568008
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 378,
+      "trials": 512,
+      "rate": 0.73828125,
+      "ci95_marginal": [
+        0.6979226029743681,
+        0.7758634684510562
+      ],
+      "ci_joint_nominal": [
+        0.6640568015950916,
+        0.8041625711163211
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 7,
+      "trials": 512,
+      "rate": 0.013671875,
+      "ci95_marginal": [
+        0.0055139999813165405,
+        0.027965446339922782
+      ],
+      "ci_joint_nominal": [
+        0.0022144672158264907,
+        0.04268632197963736
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 3,
+      "trials": 512,
+      "rate": 0.005859375,
+      "ci95_marginal": [
+        0.001209977825754866,
+        0.01702737511683891
+      ],
+      "ci_joint_nominal": [
+        0.00020356862942870008,
+        0.029414812684448424
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 8,
+      "trials": 512,
+      "rate": 0.015625,
+      "ci95_marginal": [
+        0.006769276942972374,
+        0.030554414950524585
+      ],
+      "ci_joint_nominal": [
+        0.0029559258170685568,
+        0.04575588430171944
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 7,
+      "trials": 512,
+      "rate": 0.013671875,
+      "ci95_marginal": [
+        0.0055139999813165405,
+        0.027965446339922782
+      ],
+      "ci_joint_nominal": [
+        0.0022144672158264907,
+        0.04268632197963736
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 6,
+      "trials": 512,
+      "rate": 0.01171875,
+      "ci95_marginal": [
+        0.004312383422342905,
+        0.025331281179926293
+      ],
+      "ci_joint_nominal": [
+        0.001551396978250863,
+        0.03953900265755726
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 3,
+      "trials": 512,
+      "rate": 0.005859375,
+      "ci95_marginal": [
+        0.001209977825754866,
+        0.01702737511683891
+      ],
+      "ci_joint_nominal": [
+        0.00020356862942870008,
+        0.029414812684448424
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 12,
+      "trials": 512,
+      "rate": 0.0234375,
+      "ci95_marginal": [
+        0.012167790534685311,
+        0.04058243914094818
+      ],
+      "ci_joint_nominal": [
+        0.006505891653451345,
+        0.05746566489138657
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 107,
+      "trials": 512,
+      "rate": 0.208984375,
+      "ci95_marginal": [
+        0.17455567920989282,
+        0.24681269754611482
+      ],
+      "ci_joint_nominal": [
+        0.1491731938589844,
+        0.27899863636643324
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 79,
+      "trials": 512,
+      "rate": 0.154296875,
+      "ci95_marginal": [
+        0.12410179422675849,
+        0.18854773761522486
+      ],
+      "ci_joint_nominal": [
+        0.10251713256299258,
+        0.21822328679745903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 1,
+      "trials": 512,
+      "rate": 0.001953125,
+      "ci95_marginal": [
+        4.944762114539528e-05,
+        0.010833656944754487
+      ],
+      "ci_joint_nominal": [
+        3.3911358168954897e-07,
+        0.021575358370258445
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 14,
+      "trials": 512,
+      "rate": 0.02734375,
+      "ci95_marginal": [
+        0.015027969215664627,
+        0.045452910987455956
+      ],
+      "ci_joint_nominal": [
+        0.008540727327188026,
+        0.06306990419018078
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 10,
+      "trials": 512,
+      "rate": 0.01953125,
+      "ci95_marginal": [
+        0.009404755122447008,
+        0.035624636181676994
+      ],
+      "ci_joint_nominal": [
+        0.004629766731329985,
+        0.05170860358921501
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 16,
+      "trials": 512,
+      "rate": 0.03125,
+      "ci95_marginal": [
+        0.01796544253286592,
+        0.05025287955875999
+      ],
+      "ci_joint_nominal": [
+        0.01070433854983587,
+        0.06855025568541505
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 11,
+      "trials": 512,
+      "rate": 0.021484375,
+      "ci95_marginal": [
+        0.01077255408609197,
+        0.03811577167548383
+      ],
+      "ci_joint_nominal": [
+        0.00554567130902476,
+        0.05460849440221019
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 6,
+      "trials": 512,
+      "rate": 0.01171875,
+      "ci95_marginal": [
+        0.004312383422342905,
+        0.025331281179926293
+      ],
+      "ci_joint_nominal": [
+        0.001551396978250863,
+        0.03953900265755726
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 3,
+      "trials": 512,
+      "rate": 0.005859375,
+      "ci95_marginal": [
+        0.001209977825754866,
+        0.01702737511683891
+      ],
+      "ci_joint_nominal": [
+        0.00020356862942870008,
+        0.029414812684448424
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 1,
+      "trials": 512,
+      "rate": 0.001953125,
+      "ci95_marginal": [
+        4.944762114539528e-05,
+        0.010833656944754487
+      ],
+      "ci_joint_nominal": [
+        3.3911358168954897e-07,
+        0.021575358370258445
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 11,
+      "trials": 512,
+      "rate": 0.021484375,
+      "ci95_marginal": [
+        0.01077255408609197,
+        0.03811577167548383
+      ],
+      "ci_joint_nominal": [
+        0.00554567130902476,
+        0.05460849440221019
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 7,
+      "trials": 512,
+      "rate": 0.013671875,
+      "ci95_marginal": [
+        0.0055139999813165405,
+        0.027965446339922782
+      ],
+      "ci_joint_nominal": [
+        0.0022144672158264907,
+        0.04268632197963736
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.0,
+      "method": "direct-bernstein",
+      "alarms": 151,
+      "trials": 512,
+      "rate": 0.294921875,
+      "ci95_marginal": [
+        0.25572845484372175,
+        0.3365021008300456
+      ],
+      "ci_joint_nominal": [
+        0.2258945413510111,
+        0.3711254808484861
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.0,
+      "method": "restricted-score-approx",
+      "alarms": 394,
+      "trials": 512,
+      "rate": 0.76953125,
+      "ci95_marginal": [
+        0.7305768837942281,
+        0.805340693220219
+      ],
+      "ci_joint_nominal": [
+        0.6976297516662031,
+        0.8319886541532261
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.0,
+      "method": "berger-boos-envelope",
+      "alarms": 353,
+      "trials": 512,
+      "rate": 0.689453125,
+      "ci95_marginal": [
+        0.6473860858716726,
+        0.7293161941106714
+      ],
+      "ci_joint_nominal": [
+        0.6124773868219902,
+        0.7598008990422449
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 1,
+      "trials": 512,
+      "rate": 0.001953125,
+      "ci95_marginal": [
+        4.944762114539528e-05,
+        0.010833656944754487
+      ],
+      "ci_joint_nominal": [
+        3.3911358168954897e-07,
+        0.021575358370258445
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "scenario": "honest_stable",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 1,
+      "trials": 512,
+      "rate": 0.001953125,
+      "ci95_marginal": [
+        4.944762114539528e-05,
+        0.010833656944754487
+      ],
+      "ci_joint_nominal": [
+        3.3911358168954897e-07,
+        0.021575358370258445
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 5,
+      "trials": 512,
+      "rate": 0.009765625,
+      "ci95_marginal": [
+        0.0031782607998062633,
+        0.02264162068722705
+      ],
+      "ci_joint_nominal": [
+        0.0009817643572849503,
+        0.03629675568348387
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "scenario": "honest_upper_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 3,
+      "trials": 512,
+      "rate": 0.005859375,
+      "ci95_marginal": [
+        0.001209977825754866,
+        0.01702737511683891
+      ],
+      "ci_joint_nominal": [
+        0.00020356862942870008,
+        0.029414812684448424
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 8,
+      "trials": 512,
+      "rate": 0.015625,
+      "ci95_marginal": [
+        0.006769276942972374,
+        0.030554414950524585
+      ],
+      "ci_joint_nominal": [
+        0.0029559258170685568,
+        0.04575588430171944
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "scenario": "honest_opposite_edges",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 5,
+      "trials": 512,
+      "rate": 0.009765625,
+      "ci95_marginal": [
+        0.0031782607998062633,
+        0.02264162068722705
+      ],
+      "ci_joint_nominal": [
+        0.0009817643572849503,
+        0.03629675568348387
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 8,
+      "trials": 512,
+      "rate": 0.015625,
+      "ci95_marginal": [
+        0.006769276942972374,
+        0.030554414950524585
+      ],
+      "ci_joint_nominal": [
+        0.0029559258170685568,
+        0.04575588430171944
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "scenario": "honest_lower_edge",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 6,
+      "trials": 512,
+      "rate": 0.01171875,
+      "ci95_marginal": [
+        0.004312383422342905,
+        0.025331281179926293
+      ],
+      "ci_joint_nominal": [
+        0.001551396978250863,
+        0.03953900265755726
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "scenario": "honest_zero_transmission",
+      "category": "allowed_honest",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 0,
+      "trials": 512,
+      "rate": 0.0,
+      "ci95_marginal": [
+        0.0,
+        0.007178950026259453
+      ],
+      "ci_joint_nominal": [
+        0.0,
+        0.016769312427627903
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.002425,
+      "method": "direct-bernstein",
+      "alarms": 18,
+      "trials": 512,
+      "rate": 0.03515625,
+      "ci95_marginal": [
+        0.02096640870181981,
+        0.05499428860483827
+      ],
+      "ci_joint_nominal": [
+        0.012975195273859567,
+        0.07392736800173202
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.002425,
+      "method": "restricted-score-approx",
+      "alarms": 120,
+      "trials": 512,
+      "rate": 0.234375,
+      "ci95_marginal": [
+        0.1983292690052073,
+        0.27351947564539547
+      ],
+      "ci_joint_nominal": [
+        0.17146308796118132,
+        0.30659320763729536
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "scenario": "floor_balanced",
+      "category": "fixed_attack_probe",
+      "drift_per_basis": 0.002425,
+      "method": "berger-boos-envelope",
+      "alarms": 76,
+      "trials": 512,
+      "rate": 0.1484375,
+      "ci95_marginal": [
+        0.1187687785391924,
+        0.18223326597303263
+      ],
+      "ci_joint_nominal": [
+        0.09764918454236717,
+        0.2115821271201793
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "wins_bb": 10,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.01953125,
+      "ci_joint_nominal": [
+        -0.011115773042468163,
+        0.05052905904062181
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "wins_bb": 3,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.005859375,
+      "ci_joint_nominal": [
+        -0.0157564351385189,
+        0.02846722221865266
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "wins_bb": 8,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.015625,
+      "ci_joint_nominal": [
+        -0.01284880106132881,
+        0.044632079191148304
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "wins_bb": 5,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.009765625,
+      "ci_joint_nominal": [
+        -0.014917540657846017,
+        0.035270174872800326
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "wins_bb": 0,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.0,
+      "ci_joint_nominal": [
+        -0.015990360015127218,
+        0.015990360015127218
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "wins_bb": 210,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.41015625,
+      "ci_joint_nominal": [
+        0.3197325711723012,
+        0.48755377650056564
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "wins_bb": 0,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.0,
+      "ci_joint_nominal": [
+        -0.015990360015127218,
+        0.015990360015127218
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "wins_bb": 3,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.005859375,
+      "ci_joint_nominal": [
+        -0.0157564351385189,
+        0.02846722221865266
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "wins_bb": 7,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.013671875,
+      "ci_joint_nominal": [
+        -0.013621165415988344,
+        0.041592806335476004
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "wins_bb": 3,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.005859375,
+      "ci_joint_nominal": [
+        -0.0157564351385189,
+        0.02846722221865266
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "wins_bb": 0,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.0,
+      "ci_joint_nominal": [
+        -0.015990360015127218,
+        0.015990360015127218
+      ]
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "wins_bb": 67,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.130859375,
+      "ci_joint_nominal": [
+        0.06846454049076972,
+        0.1895273734541556
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 0,
+      "wins_bb": 9,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.017578125,
+      "ci_joint_nominal": [
+        -0.012010602693452842,
+        0.04760776681823779
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 1,
+      "wins_bb": 11,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.021484375,
+      "ci_joint_nominal": [
+        -0.010171600612782494,
+        0.053403092457014134
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 2,
+      "wins_bb": 3,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.005859375,
+      "ci_joint_nominal": [
+        -0.0157564351385189,
+        0.02846722221865266
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 3,
+      "wins_bb": 6,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.01171875,
+      "ci_joint_nominal": [
+        -0.014315877334664662,
+        0.038477762102521344
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 4,
+      "wins_bb": 0,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.0,
+      "ci_joint_nominal": [
+        -0.015990360015127218,
+        0.015990360015127218
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 0,
+      "cohort_id": 7,
+      "wins_bb": 202,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.39453125,
+      "ci_joint_nominal": [
+        0.30483675602074445,
+        0.4717154549550377
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 0,
+      "wins_bb": 1,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.001953125,
+      "ci_joint_nominal": [
+        -0.015989851322715635,
+        0.02072845849158123
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 1,
+      "wins_bb": 3,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.005859375,
+      "ci_joint_nominal": [
+        -0.0157564351385189,
+        0.02846722221865266
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 2,
+      "wins_bb": 5,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.009765625,
+      "ci_joint_nominal": [
+        -0.014917540657846017,
+        0.035270174872800326
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 3,
+      "wins_bb": 6,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.01171875,
+      "ci_joint_nominal": [
+        -0.014315877334664662,
+        0.038477762102521344
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 4,
+      "wins_bb": 0,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.0,
+      "ci_joint_nominal": [
+        -0.015990360015127218,
+        0.015990360015127218
+      ]
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "allowance_id": 1,
+      "cohort_id": 7,
+      "wins_bb": 58,
+      "losses_bb": 0,
+      "trials": 512,
+      "difference": 0.11328125,
+      "ci_joint_nominal": [
+        0.054250170652406116,
+        0.16918660556327508
+      ]
+    }
+  ],
+  "direction_statuses": {
+    "proved-nonreject": 14239,
+    "screened-nonreject": 25506,
+    "bounded-reject": 1212,
+    "zero-denominator": 8192,
+    "budget-unresolved": 3
+  },
+  "original_sources_unchanged": true,
+  "prior_source_sha256": {
+    "docs/direct-drift-test.md": "d77ad451277a835e486031a7b10a9a0be793632e0fdbca54f56f2d312983619e",
+    "docs/direct-drift-protocol.md": "14261b90f58ea9572afb0a38d88606ebee0e25f94b994503229df0b1253e1936",
+    "scripts/run_direct_drift_pilot.py": "3271cae4c7f26229d54e5400464710d5b396efb987491de8b395f0534af14661",
+    "scripts/audit_direct_drift_pilot.py": "9dbe4ea1fce580a5ea750d06d2ba35c9bfed90b4ac2e15978c606ce8d2ba4c69",
+    "scripts/run_drift_pilot.py": "79983a129f1bb633824af2ef476766bfd14298e0a6bb439a97d2727a96ed773c",
+    "scripts/audit_calibration_pilot.py": "38470867ba5e51c7f74e8d53fc760d96b0c3d6414c8cc383588f49538928f1b7",
+    "src/research/direct_drift_detector.py": "1584180e083728961b058b8fde3f6a0f9830494bbdd94198dcae652f7b245c5c",
+    "src/research/drift_detector.py": "f946b37a311e2a86005547b239b137d26c49c8bb3a4c8826a8be76f621e78d33",
+    "src/research/calibration_protocol.py": "38dca710bbf7fdf21b20cdeb26155b949232f98ec0e6e2ad5ffc0b0769f5fb2a",
+    "src/research/allocation_frontier.py": "d7f95cf58cbe3b0f033976b6d54b57d5b1882692a83969c104d8e5badf9152da",
+    "src/research/identifiability.py": "32a4632b81d0ac313712cff84bfdfa27bba3a8a16690930e27cd0dc283c14c37"
+  },
+  "prior_archive_sha256": {
+    "public_counts.csv.gz": "3770f83aefb61181b4494a5486494d7220c2d9dfda8636a780c565d3449d50e7"
+  },
+  "audit_source_sha256": {
+    "docs/classical-audit-protocol.md": "2357e7152f727369e92b7830fb18113eb417041e7acb02b46cc047d9107d9346",
+    "src/research/classical_drift_audit.py": "d2f5cdbb2fc20503b418814e925f55564410d632ba9a18a1b3ddeabe12dc80eb",
+    "scripts/run_classical_drift_audit.py": "b74fb33b0fd94a95c6bd2b655338c25bf323bbb123461ab8d458c2fbfef3ccd0",
+    "tests/test_classical_drift_audit.py": "2c09e08ceda197013c899477b9cbdd2624d97513180c3087084c0d121691f9fb"
+  },
+  "decisions_sha256": "e688495fd9941603175c2b0e21e2acf54614b1a4cd9e3f5aa77c1a60d1ca054d",
+  "elapsed_seconds": 10.0192270839907,
+  "limitations": [
+    "Retrospective comparator design; not independent fresh confirmation.",
+    "Score is approximate; BB proof is real arithmetic, not certified floating point.",
+    "64 envelope subdivisions per direction; unresolved is nonreject.",
+    "No continuous power certificate, optimality or novelty claim.",
+    "Joint intervals are nominal fixed-analysis binomial intervals for this retrospective selection."
+  ]
+}

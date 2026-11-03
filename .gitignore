@@ -1,0 +1,76 @@
+# Local environments
+.venv/
+venv/
+env/
+quantum_project/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.claude/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# System, Python, test and notebook caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Local working material and generated build artifacts
+/tmp/
+/private/
+/local/
+*.log
+*.aux
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.tex
+*.bib
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+
+# Reports remain editable locally; publish only the reviewed final PDF.
+/quantum-ai-lab/paper/
+/quantum-ai-lab/interview_book/
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/quantum_ai_lab_final_report.pdf
+
+# Raw data, binary arrays and model checkpoints are local-only.
+data/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# Historical output and report-only tooling are not public deliverables.
+/quantum-ai-lab/notebooks/archive/
+/quantum-ai-lab/notebooks/main.ipynb
+/quantum-ai-lab/results/figures/
+/quantum-ai-lab/scripts/build_author_report_figures.py

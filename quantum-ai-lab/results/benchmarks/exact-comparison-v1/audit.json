@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 210560,
+  "private_rows_reconciled": 188160,
+  "decision_replays": 421120,
+  "independent_sampled_rule_decisions": 672,
+  "paired_summary_checks": 798,
+  "summary_cells_reconciled": 798,
+  "selection_checks": 128,
+  "source_hashes_checked": 6,
+  "limits": "Full replay shares scorers. Independent scalar decisions cover sampled evaluation rows; conditional small-table tests are exhaustive only over their declared small domain."
+}

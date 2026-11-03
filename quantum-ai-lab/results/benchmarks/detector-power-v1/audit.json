@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": {
+    "ancillary_pairs": 2048,
+    "boundary_entries": 2277376,
+    "scalar_fisher_boundaries": 256,
+    "conditional_function_rows": 147456,
+    "mean_endpoints": 144,
+    "envelopes": 8,
+    "direct_public_pairs": 81920,
+    "direct_decision_replays": 81920,
+    "sampled_scalar_direct_decisions": 120
+  },
+  "all_direct_analytic_intervals_overlap": true,
+  "limits": [
+    "Boundary and power checks share SciPy numerical infrastructure.",
+    "No independent optical/hardware model or outward-rounded certificate."
+  ]
+}

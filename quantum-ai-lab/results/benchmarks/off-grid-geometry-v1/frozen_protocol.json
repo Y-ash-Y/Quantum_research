@@ -1,0 +1,1364 @@
+{
+  "seed": 2026100506,
+  "plan_ids": [
+    9,
+    10
+  ],
+  "trials": {
+    "stress": 512,
+    "confirmation": 4096
+  },
+  "cases": {
+    "stress": [
+      {
+        "case_id": 0,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.0
+      },
+      {
+        "case_id": 1,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 2,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 3,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 4,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 5,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.5
+      },
+      {
+        "case_id": 6,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.0
+      },
+      {
+        "case_id": 7,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 8,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 9,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 10,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 11,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.5
+      },
+      {
+        "case_id": 12,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0059375,
+        "beta": 0.0
+      },
+      {
+        "case_id": 13,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0059375,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 14,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0059375,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 15,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0059375,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 16,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0059375,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 17,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0059375,
+        "beta": 0.5
+      },
+      {
+        "case_id": 18,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.375,
+        "rate": 0.006875,
+        "beta": 0.0
+      },
+      {
+        "case_id": 19,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.375,
+        "rate": 0.006875,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 20,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.375,
+        "rate": 0.006875,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 21,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.375,
+        "rate": 0.006875,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 22,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.375,
+        "rate": 0.006875,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 23,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.375,
+        "rate": 0.006875,
+        "beta": 0.5
+      },
+      {
+        "case_id": 24,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.75,
+        "rate": 0.00875,
+        "beta": 0.0
+      },
+      {
+        "case_id": 25,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.75,
+        "rate": 0.00875,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 26,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.75,
+        "rate": 0.00875,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 27,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.75,
+        "rate": 0.00875,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 28,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.75,
+        "rate": 0.00875,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 29,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.75,
+        "rate": 0.00875,
+        "beta": 0.5
+      },
+      {
+        "case_id": 30,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 2.0,
+        "rate": 0.01,
+        "beta": 0.0
+      },
+      {
+        "case_id": 31,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 2.0,
+        "rate": 0.01,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 32,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 2.0,
+        "rate": 0.01,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 33,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 2.0,
+        "rate": 0.01,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 34,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 2.0,
+        "rate": 0.01,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 35,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 2.0,
+        "rate": 0.01,
+        "beta": 0.5
+      },
+      {
+        "case_id": 36,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.0
+      },
+      {
+        "case_id": 37,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 38,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 39,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 40,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 41,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.5
+      },
+      {
+        "case_id": 42,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.0
+      },
+      {
+        "case_id": 43,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 44,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 45,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 46,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 47,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.5
+      },
+      {
+        "case_id": 48,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.1875,
+        "rate": 0.011875,
+        "beta": 0.0
+      },
+      {
+        "case_id": 49,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.1875,
+        "rate": 0.011875,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 50,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.1875,
+        "rate": 0.011875,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 51,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.1875,
+        "rate": 0.011875,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 52,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.1875,
+        "rate": 0.011875,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 53,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.1875,
+        "rate": 0.011875,
+        "beta": 0.5
+      },
+      {
+        "case_id": 54,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.375,
+        "rate": 0.01375,
+        "beta": 0.0
+      },
+      {
+        "case_id": 55,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.375,
+        "rate": 0.01375,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 56,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.375,
+        "rate": 0.01375,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 57,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.375,
+        "rate": 0.01375,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 58,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.375,
+        "rate": 0.01375,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 59,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.375,
+        "rate": 0.01375,
+        "beta": 0.5
+      },
+      {
+        "case_id": 60,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.75,
+        "rate": 0.0175,
+        "beta": 0.0
+      },
+      {
+        "case_id": 61,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.75,
+        "rate": 0.0175,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 62,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.75,
+        "rate": 0.0175,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 63,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.75,
+        "rate": 0.0175,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 64,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.75,
+        "rate": 0.0175,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 65,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.75,
+        "rate": 0.0175,
+        "beta": 0.5
+      },
+      {
+        "case_id": 66,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 2.0,
+        "rate": 0.02,
+        "beta": 0.0
+      },
+      {
+        "case_id": 67,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 2.0,
+        "rate": 0.02,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 68,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 2.0,
+        "rate": 0.02,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 69,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 2.0,
+        "rate": 0.02,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 70,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 2.0,
+        "rate": 0.02,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 71,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 2.0,
+        "rate": 0.02,
+        "beta": 0.5
+      },
+      {
+        "case_id": 72,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.0
+      },
+      {
+        "case_id": 73,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 74,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 75,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 76,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 77,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.5
+      },
+      {
+        "case_id": 78,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.0
+      },
+      {
+        "case_id": 79,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 80,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 81,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 82,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 83,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.5
+      },
+      {
+        "case_id": 84,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.1875,
+        "rate": 0.02375,
+        "beta": 0.0
+      },
+      {
+        "case_id": 85,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.1875,
+        "rate": 0.02375,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 86,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.1875,
+        "rate": 0.02375,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 87,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.1875,
+        "rate": 0.02375,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 88,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.1875,
+        "rate": 0.02375,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 89,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.1875,
+        "rate": 0.02375,
+        "beta": 0.5
+      },
+      {
+        "case_id": 90,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.375,
+        "rate": 0.0275,
+        "beta": 0.0
+      },
+      {
+        "case_id": 91,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.375,
+        "rate": 0.0275,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 92,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.375,
+        "rate": 0.0275,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 93,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.375,
+        "rate": 0.0275,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 94,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.375,
+        "rate": 0.0275,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 95,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.375,
+        "rate": 0.0275,
+        "beta": 0.5
+      },
+      {
+        "case_id": 96,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.75,
+        "rate": 0.035,
+        "beta": 0.0
+      },
+      {
+        "case_id": 97,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.75,
+        "rate": 0.035,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 98,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.75,
+        "rate": 0.035,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 99,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.75,
+        "rate": 0.035,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 100,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.75,
+        "rate": 0.035,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 101,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.75,
+        "rate": 0.035,
+        "beta": 0.5
+      },
+      {
+        "case_id": 102,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 2.0,
+        "rate": 0.04,
+        "beta": 0.0
+      },
+      {
+        "case_id": 103,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 2.0,
+        "rate": 0.04,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 104,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 2.0,
+        "rate": 0.04,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 105,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 2.0,
+        "rate": 0.04,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 106,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 2.0,
+        "rate": 0.04,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 107,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 2.0,
+        "rate": 0.04,
+        "beta": 0.5
+      },
+      {
+        "case_id": 108,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.0
+      },
+      {
+        "case_id": 109,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 110,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 111,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 112,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 113,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.5
+      },
+      {
+        "case_id": 114,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.0
+      },
+      {
+        "case_id": 115,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 116,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 117,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 118,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 119,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.5
+      },
+      {
+        "case_id": 120,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0475,
+        "beta": 0.0
+      },
+      {
+        "case_id": 121,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0475,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 122,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0475,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 123,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0475,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 124,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0475,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 125,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.1875,
+        "rate": 0.0475,
+        "beta": 0.5
+      },
+      {
+        "case_id": 126,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.375,
+        "rate": 0.055,
+        "beta": 0.0
+      },
+      {
+        "case_id": 127,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.375,
+        "rate": 0.055,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 128,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.375,
+        "rate": 0.055,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 129,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.375,
+        "rate": 0.055,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 130,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.375,
+        "rate": 0.055,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 131,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.375,
+        "rate": 0.055,
+        "beta": 0.5
+      },
+      {
+        "case_id": 132,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.75,
+        "rate": 0.07,
+        "beta": 0.0
+      },
+      {
+        "case_id": 133,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.75,
+        "rate": 0.07,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 134,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.75,
+        "rate": 0.07,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 135,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.75,
+        "rate": 0.07,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 136,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.75,
+        "rate": 0.07,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 137,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.75,
+        "rate": 0.07,
+        "beta": 0.5
+      },
+      {
+        "case_id": 138,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 2.0,
+        "rate": 0.08,
+        "beta": 0.0
+      },
+      {
+        "case_id": 139,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 2.0,
+        "rate": 0.08,
+        "beta": 0.0625
+      },
+      {
+        "case_id": 140,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 2.0,
+        "rate": 0.08,
+        "beta": 0.1875
+      },
+      {
+        "case_id": 141,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 2.0,
+        "rate": 0.08,
+        "beta": 0.3125
+      },
+      {
+        "case_id": 142,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 2.0,
+        "rate": 0.08,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 143,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 2.0,
+        "rate": 0.08,
+        "beta": 0.5
+      }
+    ],
+    "confirmation": [
+      {
+        "case_id": 0,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 1,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.5
+      },
+      {
+        "case_id": 2,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0,
+        "rate": 0.005,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 3,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 4,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.5
+      },
+      {
+        "case_id": 5,
+        "floor_id": 0,
+        "floor": 0.0025,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0053125,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 6,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 7,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.5
+      },
+      {
+        "case_id": 8,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0,
+        "rate": 0.01,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 9,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 10,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.5
+      },
+      {
+        "case_id": 11,
+        "floor_id": 1,
+        "floor": 0.005,
+        "rate_multiplier": 1.0625,
+        "rate": 0.010625,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 12,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 13,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.5
+      },
+      {
+        "case_id": 14,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0,
+        "rate": 0.02,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 15,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 16,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.5
+      },
+      {
+        "case_id": 17,
+        "floor_id": 2,
+        "floor": 0.01,
+        "rate_multiplier": 1.0625,
+        "rate": 0.02125,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 18,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 19,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.5
+      },
+      {
+        "case_id": 20,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0,
+        "rate": 0.04,
+        "beta": 0.5625
+      },
+      {
+        "case_id": 21,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.4375
+      },
+      {
+        "case_id": 22,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.5
+      },
+      {
+        "case_id": 23,
+        "floor_id": 3,
+        "floor": 0.02,
+        "rate_multiplier": 1.0625,
+        "rate": 0.0425,
+        "beta": 0.5625
+      }
+    ]
+  },
+  "detector_alpha": 0.05,
+  "fresh_interval_failure_budget": 0.05,
+  "confirmation_contrasts": 16
+}

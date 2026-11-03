@@ -1,0 +1,201 @@
+{
+  "scope": "Post-hoc seed-specific mechanism diagnostic, not an independent benchmark. No thresholds or training rows are changed.",
+  "benchmark_sha256": "a5f5d3423d44b740ff7a90c64c3713c2e93fa9cd45760ca5b3017a33f2a12ea9",
+  "diagnostic_source_sha256": "738c49e658ad9714d9d90ca5995abb26f7a226a2c68225e167f909796661477d",
+  "seed": 101,
+  "cohort": "nominal::IR above support",
+  "score_replay_max_absolute_error": 0.0,
+  "manual_rbf_max_absolute_error": 3.552713678800501e-15,
+  "intercept": 0.9561822829962212,
+  "gamma": 0.2499999999999999,
+  "cutoff": 1.0096203340421392,
+  "accepted": 500,
+  "flagged": 31,
+  "score_min": 0.9561847622819135,
+  "score_mean": 0.9788370835456217,
+  "score_max": 1.6201352925355705,
+  "fraction_within_0_01_of_intercept": 0.446,
+  "nearest_support_kernel_median": 0.3202018139481442,
+  "honest_physics_checks": [
+    {
+      "seed": 101,
+      "condition": "nominal",
+      "error_bits": 1984,
+      "sifted_bits": 130693,
+      "observed_pooled_qber": 0.015180614110931726,
+      "expected_qber": 0.015,
+      "binomial_z": 0.5371729021506665
+    },
+    {
+      "seed": 101,
+      "condition": "lower noise",
+      "error_bits": 664,
+      "sifted_bits": 130700,
+      "observed_pooled_qber": 0.005080336648814078,
+      "expected_qber": 0.005,
+      "binomial_z": 0.4117702468495234
+    },
+    {
+      "seed": 101,
+      "condition": "higher noise",
+      "error_bits": 3825,
+      "sifted_bits": 130697,
+      "observed_pooled_qber": 0.029266165252454148,
+      "expected_qber": 0.03,
+      "binomial_z": -1.5551940535608466
+    },
+    {
+      "seed": 101,
+      "condition": "shorter window",
+      "error_bits": 960,
+      "sifted_bits": 65009,
+      "observed_pooled_qber": 0.014767186081927118,
+      "expected_qber": 0.015,
+      "binomial_z": -0.48835083849359584
+    },
+    {
+      "seed": 202,
+      "condition": "nominal",
+      "error_bits": 1940,
+      "sifted_bits": 130032,
+      "observed_pooled_qber": 0.014919404454288175,
+      "expected_qber": 0.015,
+      "binomial_z": -0.23909605841142303
+    },
+    {
+      "seed": 202,
+      "condition": "lower noise",
+      "error_bits": 672,
+      "sifted_bits": 130281,
+      "observed_pooled_qber": 0.005158081377944597,
+      "expected_qber": 0.005,
+      "binomial_z": 0.808955648947216
+    },
+    {
+      "seed": 202,
+      "condition": "higher noise",
+      "error_bits": 3840,
+      "sifted_bits": 130307,
+      "observed_pooled_qber": 0.029468869669319376,
+      "expected_qber": 0.03,
+      "binomial_z": -1.1239279762301406
+    },
+    {
+      "seed": 202,
+      "condition": "shorter window",
+      "error_bits": 1001,
+      "sifted_bits": 65241,
+      "observed_pooled_qber": 0.015343112459956162,
+      "expected_qber": 0.015,
+      "binomial_z": 0.7209963221282183
+    },
+    {
+      "seed": 303,
+      "condition": "nominal",
+      "error_bits": 1986,
+      "sifted_bits": 130939,
+      "observed_pooled_qber": 0.015167368011058585,
+      "expected_qber": 0.015,
+      "binomial_z": 0.49824531107346687
+    },
+    {
+      "seed": 303,
+      "condition": "lower noise",
+      "error_bits": 696,
+      "sifted_bits": 131083,
+      "observed_pooled_qber": 0.005309612993294325,
+      "expected_qber": 0.005,
+      "binomial_z": 1.589263179539259
+    },
+    {
+      "seed": 303,
+      "condition": "higher noise",
+      "error_bits": 3957,
+      "sifted_bits": 131196,
+      "observed_pooled_qber": 0.03016098051769871,
+      "expected_qber": 0.03,
+      "binomial_z": 0.3418118558564267
+    },
+    {
+      "seed": 303,
+      "condition": "shorter window",
+      "error_bits": 972,
+      "sifted_bits": 65135,
+      "observed_pooled_qber": 0.01492285253703846,
+      "expected_qber": 0.015,
+      "binomial_z": -0.16198138669818082
+    },
+    {
+      "seed": 404,
+      "condition": "nominal",
+      "error_bits": 1921,
+      "sifted_bits": 130783,
+      "observed_pooled_qber": 0.014688453392260463,
+      "expected_qber": 0.015,
+      "binomial_z": -0.9269043700173083
+    },
+    {
+      "seed": 404,
+      "condition": "lower noise",
+      "error_bits": 677,
+      "sifted_bits": 130988,
+      "observed_pooled_qber": 0.005168412373652548,
+      "expected_qber": 0.005,
+      "binomial_z": 0.864158109809069
+    },
+    {
+      "seed": 404,
+      "condition": "higher noise",
+      "error_bits": 3905,
+      "sifted_bits": 130193,
+      "observed_pooled_qber": 0.029993932085442383,
+      "expected_qber": 0.03,
+      "binomial_z": -0.012834731258509166
+    },
+    {
+      "seed": 404,
+      "condition": "shorter window",
+      "error_bits": 951,
+      "sifted_bits": 64649,
+      "observed_pooled_qber": 0.01471020433417377,
+      "expected_qber": 0.015,
+      "binomial_z": -0.6061903896001768
+    },
+    {
+      "seed": 505,
+      "condition": "nominal",
+      "error_bits": 1951,
+      "sifted_bits": 130748,
+      "observed_pooled_qber": 0.014921834368403341,
+      "expected_qber": 0.015,
+      "binomial_z": -0.23252498436330116
+    },
+    {
+      "seed": 505,
+      "condition": "lower noise",
+      "error_bits": 663,
+      "sifted_bits": 130656,
+      "observed_pooled_qber": 0.005074393828067597,
+      "expected_qber": 0.005,
+      "binomial_z": 0.38124577831211703
+    },
+    {
+      "seed": 505,
+      "condition": "higher noise",
+      "error_bits": 4019,
+      "sifted_bits": 130899,
+      "observed_pooled_qber": 0.030703061138740554,
+      "expected_qber": 0.03,
+      "binomial_z": 1.491127443073777
+    },
+    {
+      "seed": 505,
+      "condition": "shorter window",
+      "error_bits": 1013,
+      "sifted_bits": 65119,
+      "observed_pooled_qber": 0.01555613569004438,
+      "expected_qber": 0.015,
+      "binomial_z": 1.1675376207073531
+    }
+  ]
+}

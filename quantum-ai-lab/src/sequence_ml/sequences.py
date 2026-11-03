@@ -1,10 +1,10 @@
 """
 Raw sifted-error-sequence datasets for temporally-structured eavesdropping.
 
-The continuous and bursty intercept-resend attacks are generated at the *same*
-per-sample strength, so their mean QBER (and basis symmetry) are matched: only
-the time-ordering of the errors differs. This is what makes the task invisible
-to any scalar/aggregate detector.
+Continuous and bursty intercept-resend attacks draw strengths from the same
+range. They share the theoretical mean at a fixed strength, not identical
+finite-sample QBER distributions: temporal correlation changes sample-mean
+variance. Both labels are attacks, not honest-versus-attacked observations.
 """
 import random
 import numpy as np
@@ -17,8 +17,9 @@ def generate_sequence_dataset(n_per_class=500, length=256, channel_noise=0.03,
     Build a balanced dataset of raw error sequences for the
     continuous-IR (label 0) vs bursty-IR (label 1) task.
 
-    Both classes draw strength from the same range, so their aggregate QBER
-    distributions are identical by construction. Returns (X, y, strengths) with
+    Both classes draw strength from the same range; their individual strengths
+    are not paired and their aggregate distributions need not be identical.
+    Returns (X, y, strengths) with
     X of shape (2*n_per_class, length).
     """
     if seed is not None:

@@ -1,0 +1,1272 @@
+{
+  "schema_version": 1,
+  "kind": "small_fixed_protocol_validation_not_novelty_proof",
+  "seed": 20261005,
+  "alpha_per_rule_per_pair": 0.05,
+  "monitoring_disclosure_fraction": 0.25,
+  "calibration_disclosure_fraction": 1.0,
+  "trials_per_cell": 400,
+  "paired_transcripts": 12000,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "scenario_laws": [
+    {
+      "name": "ideal",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "nominal",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "gate_error",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.0247,
+          0.03420600000000007,
+          0.04352188000000007
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.0247,
+          0.03420600000000007,
+          0.04352188000000007
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000001,
+          0.015000000000000001,
+          0.03420600000000001,
+          0.03420600000000001
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.015000000000000001,
+          0.015000000000000001,
+          0.03420600000000001,
+          0.03420600000000001
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "high_error_pauli",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.7999999999999999,
+          0.7999999999999999
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.7999999999999999,
+          0.7999999999999999
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "fully_mixed",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "zero_loss",
+      "category": "stable_honest",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.0
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.0
+      }
+    },
+    {
+      "name": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.015,
+          0.015,
+          0.034206,
+          0.034206
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.015,
+          0.015,
+          0.5,
+          0.5
+        ],
+        "eta": 0.15
+      }
+    },
+    {
+      "name": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "calibration": {
+        "bit_errors": [
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013,
+          0.015000000000000013
+        ],
+        "eta": 0.15
+      },
+      "monitoring": {
+        "bit_errors": [
+          0.15000000000000002,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.15000000000000002
+        ],
+        "eta": 0.15
+      }
+    }
+  ],
+  "source_sha256": {
+    "scripts/run_calibration_pilot.py": "85c8ad701f69403e2364a79b5fe2e2a20f6806375c2f02ea531b0b268f13a2ab",
+    "src/research/calibration_protocol.py": "38dca710bbf7fdf21b20cdeb26155b949232f98ec0e6e2ad5ffc0b0769f5fb2a",
+    "src/research/identifiability.py": "32a4632b81d0ac313712cff84bfdfa27bba3a8a16690930e27cd0dc283c14c37"
+  },
+  "limitations": [
+    "Simulation only; attack-free stable calibration is assumed.",
+    "Monte Carlo intervals are marginal per cell, not simultaneous.",
+    "Two rule outputs are not combined; alpha is not a budget for their union.",
+    "No repeated peeking, real hardware, adaptive Eve or secret-key proof.",
+    "All rows are included; no usability filtering or tuning."
+  ],
+  "cells": [
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ideal",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.5,
+      "mean_monitoring_disclosed": 10893.4875,
+      "mean_remaining_candidates": 32683.57
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ideal",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.5,
+      "mean_monitoring_disclosed": 10893.4875,
+      "mean_remaining_candidates": 32683.57
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "nominal",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.2975,
+      "mean_monitoring_disclosed": 10893.03,
+      "mean_remaining_candidates": 32669.3725
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "nominal",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 2,
+      "trials": 400,
+      "alarm_rate": 0.005,
+      "alarm_rate_ci95": [
+        0.0006060978093221485,
+        0.017944144605585417
+      ],
+      "mean_calibration_sacrificed": 43.2975,
+      "mean_monitoring_disclosed": 10893.03,
+      "mean_remaining_candidates": 32669.3725
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "gate_error",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.6075,
+      "mean_monitoring_disclosed": 10902.6025,
+      "mean_remaining_candidates": 32672.145
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "gate_error",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 1,
+      "trials": 400,
+      "alarm_rate": 0.0025,
+      "alarm_rate_ci95": [
+        6.329251690485727e-05,
+        0.013849769962013312
+      ],
+      "mean_calibration_sacrificed": 43.6075,
+      "mean_monitoring_disclosed": 10902.6025,
+      "mean_remaining_candidates": 32672.145
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 44.3325,
+      "mean_monitoring_disclosed": 10894.935,
+      "mean_remaining_candidates": 32683.6875
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 3,
+      "trials": 400,
+      "alarm_rate": 0.0075,
+      "alarm_rate_ci95": [
+        0.0015493589499056576,
+        0.021760668514417093
+      ],
+      "mean_calibration_sacrificed": 44.3325,
+      "mean_monitoring_disclosed": 10894.935,
+      "mean_remaining_candidates": 32683.6875
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "high_error_pauli",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.4425,
+      "mean_monitoring_disclosed": 10886.92,
+      "mean_remaining_candidates": 32660.43
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "high_error_pauli",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 4,
+      "trials": 400,
+      "alarm_rate": 0.01,
+      "alarm_rate_ci95": [
+        0.002731195971242955,
+        0.025404800907336253
+      ],
+      "mean_calibration_sacrificed": 43.4425,
+      "mean_monitoring_disclosed": 10886.92,
+      "mean_remaining_candidates": 32660.43
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "fully_mixed",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.1875,
+      "mean_monitoring_disclosed": 10895.4825,
+      "mean_remaining_candidates": 32673.35
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "fully_mixed",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 3,
+      "trials": 400,
+      "alarm_rate": 0.0075,
+      "alarm_rate_ci95": [
+        0.0015493589499056576,
+        0.021760668514417093
+      ],
+      "mean_calibration_sacrificed": 43.1875,
+      "mean_monitoring_disclosed": 10895.4825,
+      "mean_remaining_candidates": 32673.35
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "zero_loss",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 0.0,
+      "mean_monitoring_disclosed": 0.0,
+      "mean_remaining_candidates": 0.0
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "zero_loss",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 0.0,
+      "mean_monitoring_disclosed": 0.0,
+      "mean_remaining_candidates": 0.0
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.875,
+      "mean_monitoring_disclosed": 10892.2425,
+      "mean_remaining_candidates": 32695.8075
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "clopper-pearson",
+      "alarms": 1,
+      "trials": 400,
+      "alarm_rate": 0.0025,
+      "alarm_rate_ci95": [
+        6.329251690485727e-05,
+        0.013849769962013312
+      ],
+      "mean_calibration_sacrificed": 43.875,
+      "mean_monitoring_disclosed": 10892.2425,
+      "mean_remaining_candidates": 32695.8075
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "hoeffding",
+      "alarms": 93,
+      "trials": 400,
+      "alarm_rate": 0.2325,
+      "alarm_rate_ci95": [
+        0.1919647188093865,
+        0.2770441599578932
+      ],
+      "mean_calibration_sacrificed": 43.675,
+      "mean_monitoring_disclosed": 10885.0925,
+      "mean_remaining_candidates": 32683.2125
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "clopper-pearson",
+      "alarms": 338,
+      "trials": 400,
+      "alarm_rate": 0.845,
+      "alarm_rate_ci95": [
+        0.805747095458999,
+        0.879050722393643
+      ],
+      "mean_calibration_sacrificed": 43.675,
+      "mean_monitoring_disclosed": 10885.0925,
+      "mean_remaining_candidates": 32683.2125
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.425,
+      "mean_monitoring_disclosed": 10890.73,
+      "mean_remaining_candidates": 32680.495
+    },
+    {
+      "calibration_emitted": 2000,
+      "monitoring_emitted": 2000000,
+      "scenario": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43.425,
+      "mean_monitoring_disclosed": 10890.73,
+      "mean_remaining_candidates": 32680.495
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "ideal",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4356.375,
+      "mean_monitoring_disclosed": 1090.8275,
+      "mean_remaining_candidates": 3273.51
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "ideal",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4356.375,
+      "mean_monitoring_disclosed": 1090.8275,
+      "mean_remaining_candidates": 3273.51
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "nominal",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4360.7375,
+      "mean_monitoring_disclosed": 1088.2225,
+      "mean_remaining_candidates": 3268.4125
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "nominal",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 1,
+      "trials": 400,
+      "alarm_rate": 0.0025,
+      "alarm_rate_ci95": [
+        6.329251690485727e-05,
+        0.013849769962013312
+      ],
+      "mean_calibration_sacrificed": 4360.7375,
+      "mean_monitoring_disclosed": 1088.2225,
+      "mean_remaining_candidates": 3268.4125
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "gate_error",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4359.09,
+      "mean_monitoring_disclosed": 1086.5325,
+      "mean_remaining_candidates": 3272.4525
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "gate_error",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 1,
+      "trials": 400,
+      "alarm_rate": 0.0025,
+      "alarm_rate_ci95": [
+        6.329251690485727e-05,
+        0.013849769962013312
+      ],
+      "mean_calibration_sacrificed": 4359.09,
+      "mean_monitoring_disclosed": 1086.5325,
+      "mean_remaining_candidates": 3272.4525
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4361.8075,
+      "mean_monitoring_disclosed": 1089.0625,
+      "mean_remaining_candidates": 3264.6875
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 1,
+      "trials": 400,
+      "alarm_rate": 0.0025,
+      "alarm_rate_ci95": [
+        6.329251690485727e-05,
+        0.013849769962013312
+      ],
+      "mean_calibration_sacrificed": 4361.8075,
+      "mean_monitoring_disclosed": 1089.0625,
+      "mean_remaining_candidates": 3264.6875
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "high_error_pauli",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4358.415,
+      "mean_monitoring_disclosed": 1090.4575,
+      "mean_remaining_candidates": 3261.755
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "high_error_pauli",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4358.415,
+      "mean_monitoring_disclosed": 1090.4575,
+      "mean_remaining_candidates": 3261.755
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "fully_mixed",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4356.4425,
+      "mean_monitoring_disclosed": 1090.24,
+      "mean_remaining_candidates": 3268.9875
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "fully_mixed",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 1,
+      "trials": 400,
+      "alarm_rate": 0.0025,
+      "alarm_rate_ci95": [
+        6.329251690485727e-05,
+        0.013849769962013312
+      ],
+      "mean_calibration_sacrificed": 4356.4425,
+      "mean_monitoring_disclosed": 1090.24,
+      "mean_remaining_candidates": 3268.9875
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "zero_loss",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 0.0,
+      "mean_monitoring_disclosed": 0.0,
+      "mean_remaining_candidates": 0.0
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "zero_loss",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 0.0,
+      "mean_monitoring_disclosed": 0.0,
+      "mean_remaining_candidates": 0.0
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 4360.12,
+      "mean_monitoring_disclosed": 1089.425,
+      "mean_remaining_candidates": 3263.5025
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "clopper-pearson",
+      "alarms": 15,
+      "trials": 400,
+      "alarm_rate": 0.0375,
+      "alarm_rate_ci95": [
+        0.02113767478434893,
+        0.061096976623900706
+      ],
+      "mean_calibration_sacrificed": 4360.12,
+      "mean_monitoring_disclosed": 1089.425,
+      "mean_remaining_candidates": 3263.5025
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "hoeffding",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 4360.4025,
+      "mean_monitoring_disclosed": 1090.165,
+      "mean_remaining_candidates": 3267.6825
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "clopper-pearson",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 4360.4025,
+      "mean_monitoring_disclosed": 1090.165,
+      "mean_remaining_candidates": 3267.6825
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "method": "hoeffding",
+      "alarms": 180,
+      "trials": 400,
+      "alarm_rate": 0.45,
+      "alarm_rate_ci95": [
+        0.4005245257191727,
+        0.5002206000152675
+      ],
+      "mean_calibration_sacrificed": 4360.3775,
+      "mean_monitoring_disclosed": 1089.4,
+      "mean_remaining_candidates": 3266.4675
+    },
+    {
+      "calibration_emitted": 200000,
+      "monitoring_emitted": 200000,
+      "scenario": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "method": "clopper-pearson",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 4360.3775,
+      "mean_monitoring_disclosed": 1089.4,
+      "mean_remaining_candidates": 3266.4675
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ideal",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43566.6775,
+      "mean_monitoring_disclosed": 10895.7275,
+      "mean_remaining_candidates": 32676.5575
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ideal",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43566.6775,
+      "mean_monitoring_disclosed": 10895.7275,
+      "mean_remaining_candidates": 32676.5575
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "nominal",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43582.2075,
+      "mean_monitoring_disclosed": 10892.7475,
+      "mean_remaining_candidates": 32680.96
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "nominal",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43582.2075,
+      "mean_monitoring_disclosed": 10892.7475,
+      "mean_remaining_candidates": 32680.96
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "gate_error",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43553.675,
+      "mean_monitoring_disclosed": 10893.57,
+      "mean_remaining_candidates": 32689.925
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "gate_error",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43553.675,
+      "mean_monitoring_disclosed": 10893.57,
+      "mean_remaining_candidates": 32689.925
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43565.305,
+      "mean_monitoring_disclosed": 10896.0275,
+      "mean_remaining_candidates": 32668.125
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "ir_equivalent_pauli",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43565.305,
+      "mean_monitoring_disclosed": 10896.0275,
+      "mean_remaining_candidates": 32668.125
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "high_error_pauli",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43571.195,
+      "mean_monitoring_disclosed": 10895.735,
+      "mean_remaining_candidates": 32698.6475
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "high_error_pauli",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43571.195,
+      "mean_monitoring_disclosed": 10895.735,
+      "mean_remaining_candidates": 32698.6475
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "fully_mixed",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43582.775,
+      "mean_monitoring_disclosed": 10894.1525,
+      "mean_remaining_candidates": 32669.645
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "fully_mixed",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43582.775,
+      "mean_monitoring_disclosed": 10894.1525,
+      "mean_remaining_candidates": 32669.645
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "zero_loss",
+      "category": "stable_honest",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 0.0,
+      "mean_monitoring_disclosed": 0.0,
+      "mean_remaining_candidates": 0.0
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "zero_loss",
+      "category": "stable_honest",
+      "method": "clopper-pearson",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 0.0,
+      "mean_monitoring_disclosed": 0.0,
+      "mean_remaining_candidates": 0.0
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "hoeffding",
+      "alarms": 0,
+      "trials": 400,
+      "alarm_rate": 0.0,
+      "alarm_rate_ci95": [
+        0.0,
+        0.009179804583665262
+      ],
+      "mean_calibration_sacrificed": 43599.4075,
+      "mean_monitoring_disclosed": 10896.255,
+      "mean_remaining_candidates": 32676.8975
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "weak_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "clopper-pearson",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 43599.4075,
+      "mean_monitoring_disclosed": 10896.255,
+      "mean_remaining_candidates": 32676.8975
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "hoeffding",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 43595.0425,
+      "mean_monitoring_disclosed": 10898.8175,
+      "mean_remaining_candidates": 32688.495
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "full_fixed_z_ir",
+      "category": "attack_shift",
+      "method": "clopper-pearson",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 43595.0425,
+      "mean_monitoring_disclosed": 10898.8175,
+      "mean_remaining_candidates": 32688.495
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "method": "hoeffding",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 43565.1,
+      "mean_monitoring_disclosed": 10902.8675,
+      "mean_remaining_candidates": 32689.99
+    },
+    {
+      "calibration_emitted": 2000000,
+      "monitoring_emitted": 2000000,
+      "scenario": "honest_noise_drift",
+      "category": "outside_stability_assumption",
+      "method": "clopper-pearson",
+      "alarms": 400,
+      "trials": 400,
+      "alarm_rate": 1.0,
+      "alarm_rate_ci95": [
+        0.9908201954163347,
+        1.0
+      ],
+      "mean_calibration_sacrificed": 43565.1,
+      "mean_monitoring_disclosed": 10902.8675,
+      "mean_remaining_candidates": 32689.99
+    }
+  ],
+  "public_counts_sha256": "53f67b3d7129bf558210a5d1ff0e030b1cc00eeb2f6eccb90595f6d48dbbd47d"
+}

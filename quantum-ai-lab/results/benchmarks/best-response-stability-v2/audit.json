@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 2877440,
+  "private_rows_reconciled": 626688,
+  "decision_replays": 3561472,
+  "summary_cells_reconciled": 4646,
+  "pooled_search_cells_checked": 2142,
+  "shortlist_checks": 56,
+  "defender_checks": 8,
+  "envelope_checks": 56,
+  "independent_sampled_rule_decisions": 1836,
+  "source_hashes_checked": 8,
+  "input_hashes_checked": 2,
+  "limits": "Full replay shares scorers. Independent scalar decisions are sampled and share SciPy distribution machinery; the grid envelope does not certify continuous attacks."
+}

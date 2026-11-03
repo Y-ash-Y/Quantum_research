@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 176960,
+  "private_rows_reconciled": 154560,
+  "decision_replays": 176960,
+  "independent_sampled_decisions": 168,
+  "summary_cells_reconciled": 742,
+  "selection_checks": 64,
+  "independent_categorical_bound_checks": 112,
+  "source_hashes_checked": 4,
+  "limits": "Full replay shares the scorer; independent decisions cover sampled evaluation rows. No global best-response proof."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "public_pairs_reconciled": 110592,
+  "decision_replays": 221184,
+  "rate_cells": 432,
+  "independent_sampled_decisions": 1296,
+  "independent_scalar_lower_rows": 12288,
+  "seed_reproduced_pairs": 110592,
+  "source_fingerprints": 8,
+  "limits": "Scalar decisions cover first/middle/last only; CP references share SciPy. No hardware/rounding/priority proof."
+}

@@ -1,10 +1,10 @@
 """
 Dataset generation for sub-threshold eavesdropping detection.
 
-Every channel here keeps the total QBER below the BB84 security threshold, so a
-classifier built on QBER alone is forced to fail. The discriminating signal
-lives in the *other* statistics — per-basis QBER asymmetry and the decoy/signal
-gain ratio — which is what the rich feature set exposes.
+The attack strengths target low expected QBER; finite sessions can exceed any
+chosen alarm threshold. A calibrated QBER classifier can still detect biased
+interception. Decoy statistics expose idealized PNS, which adds no bit errors.
+These are simulator datasets, not evidence of a secret-key security certificate.
 """
 import random
 import numpy as np
@@ -34,8 +34,8 @@ def generate_sample(n_bits=2500, channel_noise=0.03, seed=None):
     Generate ONE labelled sample.
 
     label 0 = secure, label 1 = under attack (basis-biased IR or PNS).
-    The basis-biased attack strength is restricted so the total QBER stays
-    below the 11% threshold — the whole point of the sub-threshold regime.
+    The basis-biased attack strength targets low expected QBER; individual
+    finite samples are not guaranteed to lie below 11%.
     Returns (features, label, family).
     """
     label = random.randint(0, 1)
@@ -46,7 +46,7 @@ def generate_sample(n_bits=2500, channel_noise=0.03, seed=None):
     else:
         family = random.choice(['biased_ir', 'pns'])
         if family == 'biased_ir':
-            strength = random.uniform(0.08, 0.22)   # keeps total QBER < 11%
+            strength = random.uniform(0.08, 0.22)   # low expected QBER, not a sample bound
             stats = run_bb84(n_bits, channel_noise=channel_noise,
                              attack='biased_ir', attack_strength=strength, seed=seed)
         else:

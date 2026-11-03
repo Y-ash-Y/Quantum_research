@@ -1,0 +1,14 @@
+{
+  "audit_rows": 70000,
+  "rate_checks": 1320,
+  "independent_score_checks": 420000,
+  "independent_confidence_bound_inversions": 140000,
+  "independent_auc_checks": 960,
+  "independent_physical_reference_checks": 880,
+  "unrejected_cohort_physics_max_abs_z": 3.5330386841414825,
+  "rejected_cohorts_excluded_from_unconditional_physics_z": 0,
+  "current_source_fingerprints": "passed",
+  "fixed_windows_and_cutoffs": "passed",
+  "matched_controls": "passed",
+  "count_derived_features": "passed"
+}

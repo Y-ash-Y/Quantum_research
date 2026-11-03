@@ -1,0 +1,462 @@
+{
+  "eve_responses": [
+    {
+      "plan_id": 0,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 0,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 11,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 0,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 23,
+      "search_alarm_rate": 0.010416666666666666
+    },
+    {
+      "plan_id": 0,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.09895833333333333
+    },
+    {
+      "plan_id": 1,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 1,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 11,
+      "search_alarm_rate": 0.005208333333333333
+    },
+    {
+      "plan_id": 1,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.015625
+    },
+    {
+      "plan_id": 1,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.2760416666666667
+    },
+    {
+      "plan_id": 2,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 2,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 2,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.020833333333333332
+    },
+    {
+      "plan_id": 2,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.5989583333333334
+    },
+    {
+      "plan_id": 3,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 3,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 11,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 3,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.06770833333333333
+    },
+    {
+      "plan_id": 3,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.7083333333333334
+    },
+    {
+      "plan_id": 4,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 4,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.010416666666666666
+    },
+    {
+      "plan_id": 4,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.06770833333333333
+    },
+    {
+      "plan_id": 4,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.7604166666666666
+    },
+    {
+      "plan_id": 5,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 1,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 5,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 5,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.0625
+    },
+    {
+      "plan_id": 5,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.6041666666666666
+    },
+    {
+      "plan_id": 6,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 1,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 6,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 6,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 23,
+      "search_alarm_rate": 0.020833333333333332
+    },
+    {
+      "plan_id": 6,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.17708333333333334
+    },
+    {
+      "plan_id": 7,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 7,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.005208333333333333
+    },
+    {
+      "plan_id": 7,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 21,
+      "search_alarm_rate": 0.010416666666666666
+    },
+    {
+      "plan_id": 7,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.1875
+    },
+    {
+      "plan_id": 8,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 8,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.005208333333333333
+    },
+    {
+      "plan_id": 8,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.03125
+    },
+    {
+      "plan_id": 8,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.390625
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.005208333333333333
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.0625
+    },
+    {
+      "plan_id": 9,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.671875
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 11,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.036458333333333336
+    },
+    {
+      "plan_id": 10,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.6614583333333334
+    },
+    {
+      "plan_id": 11,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 11,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 11,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 11,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.046875
+    },
+    {
+      "plan_id": 11,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.4791666666666667
+    },
+    {
+      "plan_id": 12,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 12,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.005208333333333333
+    },
+    {
+      "plan_id": 12,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.026041666666666668
+    },
+    {
+      "plan_id": 12,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.2708333333333333
+    },
+    {
+      "plan_id": 13,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 13,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 13,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "plan_id": 13,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.0
+    }
+  ],
+  "defender_plans": [
+    {
+      "regime": "fixed_fraction",
+      "plan_id": 3,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "regime": "fixed_fraction",
+      "plan_id": 4,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.010416666666666666
+    },
+    {
+      "regime": "fixed_fraction",
+      "plan_id": 3,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.06770833333333333
+    },
+    {
+      "regime": "fixed_fraction",
+      "plan_id": 4,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.7604166666666666
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "plan_id": 10,
+      "floor_id": 0,
+      "minimum_certified_fraction": 0.0025,
+      "policy_id": 2,
+      "search_alarm_rate": 0.0
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "plan_id": 12,
+      "floor_id": 1,
+      "minimum_certified_fraction": 0.005,
+      "policy_id": 12,
+      "search_alarm_rate": 0.005208333333333333
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "plan_id": 9,
+      "floor_id": 2,
+      "minimum_certified_fraction": 0.01,
+      "policy_id": 22,
+      "search_alarm_rate": 0.0625
+    },
+    {
+      "regime": "fixed_sacrifice",
+      "plan_id": 9,
+      "floor_id": 3,
+      "minimum_certified_fraction": 0.02,
+      "policy_id": 32,
+      "search_alarm_rate": 0.671875
+    }
+  ]
+}

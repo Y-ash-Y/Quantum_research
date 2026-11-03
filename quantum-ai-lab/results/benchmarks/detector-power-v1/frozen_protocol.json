@@ -1,0 +1,26 @@
+{
+  "seed": 2026100907,
+  "ancillary_trials": 1024,
+  "direct_trials": 8192,
+  "plan_ids": [
+    9,
+    10
+  ],
+  "floors": [
+    0.0025,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "bias_cells": 16,
+  "alpha": 0.05,
+  "mean_functions": 144,
+  "mean_failure_budget": 0.04,
+  "direct_failure_budget": 0.01,
+  "direct_cells": 10,
+  "calibration_truncation": 1e-12,
+  "regret_tolerance": 0.05,
+  "noise": 0.03,
+  "eta": 0.15,
+  "total_emissions": 4000000
+}

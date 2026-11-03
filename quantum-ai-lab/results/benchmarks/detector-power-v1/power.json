@@ -1,0 +1,2393 @@
+{
+  "schema_version": 1,
+  "kind": "monotone_subevent_continuous_lower_not_exact_optimality",
+  "protocol": {
+    "seed": 2026100907,
+    "ancillary_trials": 1024,
+    "direct_trials": 8192,
+    "plan_ids": [
+      9,
+      10
+    ],
+    "floors": [
+      0.0025,
+      0.005,
+      0.01,
+      0.02
+    ],
+    "bias_cells": 16,
+    "alpha": 0.05,
+    "mean_functions": 144,
+    "mean_failure_budget": 0.04,
+    "direct_failure_budget": 0.01,
+    "direct_cells": 10,
+    "calibration_truncation": 1e-12,
+    "regret_tolerance": 0.05,
+    "noise": 0.03,
+    "eta": 0.15,
+    "total_emissions": 4000000
+  },
+  "envelopes": [
+    {
+      "plan_id": 9,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 800000,
+        "monitoring_disclosure": 0.375
+      },
+      "floor_id": 0,
+      "floor": 0.0025,
+      "rate_domain": [
+        0.005,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.09382766108087133,
+          "sample_variance": 0.012219693531924312,
+          "radius": 0.034817846115958215,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.059009814964913115,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.08995352077318491,
+          "sample_variance": 0.0123243417324506,
+          "radius": 0.034880056255092745,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.05507346451809217,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.08634904242927013,
+          "sample_variance": 0.012422110101265628,
+          "radius": 0.03493793833809519,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.05141110409117494,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.08301223412479289,
+          "sample_variance": 0.012512965521622722,
+          "radius": 0.034991523879377345,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.04802071024541554,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.0799411159122596,
+          "sample_variance": 0.012596881818429445,
+          "radius": 0.035040844244670306,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.04490027166758929,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.07713374718817198,
+          "sample_variance": 0.01267383884455855,
+          "radius": 0.03508593020978925,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.04204781697838273,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.07458825255313634,
+          "sample_variance": 0.012743821598287526,
+          "radius": 0.03512681154353839,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.03946144100959795,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.0723028460227512,
+          "sample_variance": 0.012806819381024048,
+          "radius": 0.03516351661708486,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.03713932940566633,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.07027585345830359,
+          "sample_variance": 0.012862825003824728,
+          "radius": 0.03519607204194717,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.03507978141635642,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.06850573309777429,
+          "sample_variance": 0.012911834050525177,
+          "radius": 0.03522450233855645,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.033281230759217836,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.06699109407930011,
+          "sample_variance": 0.012953844204579202,
+          "radius": 0.035248829637158044,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.031742264442142065,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.06573071286104315,
+          "sample_variance": 0.012988854645959532,
+          "radius": 0.035269073412628055,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.030461639448415095,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.06472354745331975,
+          "sample_variance": 0.013016865523707866,
+          "radius": 0.03528525025458435,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.0294382971987354,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.06396874939080537,
+          "sample_variance": 0.013037877508943583,
+          "radius": 0.03529737367397602,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.028671375716829345,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.06346567338463975,
+          "sample_variance": 0.013051891432350991,
+          "radius": 0.035305453947138306,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.028160219437501445,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.06321388460629365,
+          "sample_variance": 0.013058908009368564,
+          "radius": 0.035309497998103054,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.0279043866081906,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.06752019071969598,
+        "sample_variance": 0.012939124709449796,
+        "radius": 0.03524031034698613,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.032279880372709846,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.06752019071981602,
+        "sample_variance": 0.012939124709446468,
+        "radius": 0.0352403103469842,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.10276050106680022,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.0279043866081906,
+        0.10276050106680022
+      ],
+      "balanced_point_joint95": [
+        0.032279880372709846,
+        0.10276050106680022
+      ],
+      "balanced_regret_upper_joint95": 0.07485611445860962,
+      "balanced_within_five_points": false
+    },
+    {
+      "plan_id": 9,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 800000,
+        "monitoring_disclosure": 0.375
+      },
+      "floor_id": 1,
+      "floor": 0.005,
+      "rate_domain": [
+        0.01,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.35329980452694987,
+          "sample_variance": 0.006233108416009595,
+          "radius": 0.030656796045315834,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.322643008481634,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.33071782049183884,
+          "sample_variance": 0.006674185404425632,
+          "radius": 0.031018423695114677,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.2996993967967242,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.30910250426651853,
+          "sample_variance": 0.007110599561328409,
+          "radius": 0.0313646457013045,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.27773785856521405,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.2885633786888464,
+          "sample_variance": 0.0075381815106086835,
+          "radius": 0.03169369903068924,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.25686967965815716,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.26920339142217614,
+          "sample_variance": 0.007952730182256968,
+          "radius": 0.03200392441419795,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.2371994670079782,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.25111837353730215,
+          "sample_variance": 0.008350079451693188,
+          "radius": 0.03229377544570814,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.21882459809159402,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.23439662139650058,
+          "sample_variance": 0.008726163274724202,
+          "radius": 0.03256182570633538,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.20183479569016521,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.2191185928396801,
+          "sample_variance": 0.009077077956127054,
+          "radius": 0.032806774045071596,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.1863118187946085,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.2053567054494292,
+          "sample_variance": 0.009399140423715093,
+          "radius": 0.033027448200693615,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.17232925724873557,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.19317522220997846,
+          "sample_variance": 0.009688941629171792,
+          "radius": 0.03322280699190659,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.15995241521807185,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.182630208235211,
+          "sample_variance": 0.009943394443137982,
+          "radius": 0.03339194133155035,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.14923826690366065,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.17376954144522538,
+          "sample_variance": 0.010159775638523948,
+          "radius": 0.033534074335826565,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.14023546710939883,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.16663296010604967,
+          "sample_variance": 0.01033576174969596,
+          "radius": 0.033648560800955664,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.132984399305094,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.16125213096814295,
+          "sample_variance": 0.010469458747049878,
+          "radius": 0.03373488630804756,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.1275172446600954,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.15765072327515214,
+          "sample_variance": 0.010559425571945471,
+          "radius": 0.03379266619334583,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.1238580570818063,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.15584447607284407,
+          "sample_variance": 0.010604691635845931,
+          "radius": 0.033821644586852224,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.12202283148599186,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.16469238447460793,
+        "sample_variance": 0.010383655642882104,
+        "radius": 0.033679548766594625,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.1310128357080133,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.16469238447471846,
+        "sample_variance": 0.010383655642879373,
+        "radius": 0.03367954876659286,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.1983719332413113,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.12202283148599186,
+        0.1983719332413113
+      ],
+      "balanced_point_joint95": [
+        0.1310128357080133,
+        0.1983719332413113
+      ],
+      "balanced_regret_upper_joint95": 0.07634910175531945,
+      "balanced_within_five_points": false
+    },
+    {
+      "plan_id": 9,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 800000,
+        "monitoring_disclosure": 0.375
+      },
+      "floor_id": 2,
+      "floor": 0.01,
+      "rate_domain": [
+        0.02,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.9505015203863043,
+          "sample_variance": 3.9480020486917855e-05,
+          "radius": 0.021085913489340687,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9294156068969637,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.9358094508624322,
+          "sample_variance": 6.557746040061309e-05,
+          "radius": 0.021324923472729185,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.914484527389703,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.9180220115712618,
+          "sample_variance": 0.00010579282908795625,
+          "radius": 0.021613047151964104,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8964089644192977,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.8969206843341017,
+          "sample_variance": 0.00016567047505668952,
+          "radius": 0.021953613154494428,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8749670711796073,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.8724201432246611,
+          "sample_variance": 0.0002516840828611834,
+          "radius": 0.022347851976067697,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8500722912485934,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.8446165312272595,
+          "sample_variance": 0.000370677505230603,
+          "radius": 0.02279414002449387,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8218223912027657,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.8138322255367203,
+          "sample_variance": 0.0005288738550530317,
+          "radius": 0.023287295244120605,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.7905449302925996,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.7806500337121443,
+          "sample_variance": 0.0007304526810208254,
+          "radius": 0.023818035015498333,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.756831998696646,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.745928924364504,
+          "sample_variance": 0.0009758334641805604,
+          "radius": 0.024372721455752727,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.7215562029087512,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.7107937756002274,
+          "sample_variance": 0.0012599761863039346,
+          "radius": 0.024933514580475605,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.6858602610197517,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.6765936199783653,
+          "sample_variance": 0.0015711636773006706,
+          "radius": 0.02547902334350114,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.6511145966348642,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.6448265925370344,
+          "sample_variance": 0.0018907899623087459,
+          "radius": 0.025985486075245895,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.6188411064617886,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.617034929020546,
+          "sample_variance": 0.0021945718363326075,
+          "radius": 0.026428430037648776,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5906064989828972,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.59467910108845,
+          "sample_variance": 0.0024552999517366042,
+          "radius": 0.026784667562128845,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5678944335263212,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.5790053052379545,
+          "sample_variance": 0.0026468035454293554,
+          "radius": 0.027034403027093694,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5519709022108608,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.5709237099438831,
+          "sample_variance": 0.002748356958847275,
+          "radius": 0.027163172518879737,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5437605374250033,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.6014198209715491,
+        "sample_variance": 0.002373002144356216,
+        "radius": 0.02667435925371338,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.5747454617178357,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.6014198209716126,
+        "sample_variance": 0.0023730021443554928,
+        "radius": 0.0266743592537124,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.628094180225325,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.5437605374250033,
+        0.628094180225325
+      ],
+      "balanced_point_joint95": [
+        0.5747454617178357,
+        0.628094180225325
+      ],
+      "balanced_regret_upper_joint95": 0.08433364280032174,
+      "balanced_within_five_points": false
+    },
+    {
+      "plan_id": 9,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 800000,
+        "monitoring_disclosure": 0.375
+      },
+      "floor_id": 3,
+      "floor": 0.02,
+      "rate_domain": [
+        0.04,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.9999999849591333,
+          "sample_variance": 1.107051038415348e-17,
+          "radius": 0.020258343264891194,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797416416942422,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.9999999427777035,
+          "sample_variance": 1.4549079901151158e-16,
+          "radius": 0.020258344415334816,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797415983623687,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.9999997936405502,
+          "sample_variance": 1.7190451868821431e-15,
+          "radius": 0.020258348287510587,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797414453530396,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.9999992974474694,
+          "sample_variance": 1.8122236720179353e-14,
+          "radius": 0.02025836055721692,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797409368902524,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.9999977531924555,
+          "sample_variance": 1.688703074135034e-13,
+          "radius": 0.020258396951057342,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797393562413982,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.9999932889690889,
+          "sample_variance": 1.376028567487872e-12,
+          "radius": 0.020258497327247684,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797347916418412,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.999981395063048,
+          "sample_variance": 9.690363648027795e-12,
+          "radius": 0.020258752829101292,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797226422339467,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.999952436152527,
+          "sample_variance": 5.827271975129786e-11,
+          "radius": 0.020259348250195854,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9796930879023312,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.9998885738816711,
+          "sample_variance": 2.9575267190768016e-10,
+          "radius": 0.020260607892033048,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.979627965989638,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.9997622123228901,
+          "sample_variance": 1.2532823449130398e-09,
+          "radius": 0.020263005563049413,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9794992067598407,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.9995401839010124,
+          "sample_variance": 4.392487061754887e-09,
+          "radius": 0.02026707197045146,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.979273111930561,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.9991979623146964,
+          "sample_variance": 1.2631650795225192e-08,
+          "radius": 0.020273145714804083,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9789248165998923,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.9987428378424359,
+          "sample_variance": 2.9616571587026905e-08,
+          "radius": 0.02028100929163406,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9784618285508019,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.9982343971215655,
+          "sample_variance": 5.6342726246770915e-08,
+          "radius": 0.02028960616355155,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9779447909580139,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.9977830368509983,
+          "sample_variance": 8.667294710878762e-08,
+          "radius": 0.020297118396056992,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9774859184549414,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.9975147434815421,
+          "sample_variance": 1.0757988120019602e-07,
+          "radius": 0.02030154264614631,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9772132008353958,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.9985515573487823,
+        "sample_variance": 3.745821518948813e-08,
+        "radius": 0.020283834006801043,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.9782677233419813,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.9985515573487833,
+        "sample_variance": 3.745821518945354e-08,
+        "radius": 0.02028383400680103,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 1.0,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.9772132008353958,
+        1.0
+      ],
+      "balanced_point_joint95": [
+        0.9782677233419813,
+        1.0
+      ],
+      "balanced_regret_upper_joint95": 0.022786799164604243,
+      "balanced_within_five_points": true
+    },
+    {
+      "plan_id": 10,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 1333333,
+        "monitoring_disclosure": 0.2500000937499883
+      },
+      "floor_id": 0,
+      "floor": 0.0025,
+      "rate_domain": [
+        0.005,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.09197745866246759,
+          "sample_variance": 0.011440367460724937,
+          "radius": 0.03434592261897641,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.05763153604349118,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.08822630371582935,
+          "sample_variance": 0.011535024596583534,
+          "radius": 0.034404082595081126,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.05382222112074822,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.08473430159446815,
+          "sample_variance": 0.01162349632904435,
+          "radius": 0.03445822671747282,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.050276074876995334,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.0814998977466925,
+          "sample_variance": 0.011705746253121927,
+          "radius": 0.03450837860294388,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.04699151914374862,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.07852153691060147,
+          "sample_variance": 0.01178174413698343,
+          "radius": 0.03455456192446793,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.04396697498613354,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.07579768655159534,
+          "sample_variance": 0.01185146521130414,
+          "radius": 0.034596800046048246,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.041200886505547096,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.07332685903628364,
+          "sample_variance": 0.01191488948159967,
+          "radius": 0.03463511567710933,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.03869174335917431,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.07110763241576809,
+          "sample_variance": 0.011972001070875019,
+          "radius": 0.03466953054844488,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.036438101867323214,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.06913866970069851,
+          "sample_variance": 0.012022787599442602,
+          "radius": 0.03470006511158637,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.034438604589112146,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.06741873652029959,
+          "sample_variance": 0.012067239608234779,
+          "radius": 0.03472673826330169,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.032691998256997895,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.0659467170676408,
+          "sample_variance": 0.012105350031378439,
+          "radius": 0.03474956709677363,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.031197149970867165,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.06472162824376172,
+          "sample_variance": 0.012137113723213671,
+          "radius": 0.034768566680844104,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.02995306156291762,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.06374263192381278,
+          "sample_variance": 0.012162527044331378,
+          "radius": 0.034783749868543164,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.02895888205526962,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.06300904527907958,
+          "sample_variance": 0.012181587510579173,
+          "radius": 0.0347951271359517,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.028213918143127875,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.06252034909960932,
+          "sample_variance": 0.012194293508345553,
+          "radius": 0.03480270645227501,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.027717642647334312,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.06227619407310776,
+          "sample_variance": 0.012200644078781507,
+          "radius": 0.034806493181830364,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.0274697008912774,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.0668309017703951,
+        "sample_variance": 0.012082411489801407,
+        "radius": 0.03473583080788148,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.03209507096251363,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.06683090177055057,
+        "sample_variance": 0.012082411489797372,
+        "radius": 0.034735830807879065,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.10156673257842963,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.0274697008912774,
+        0.10156673257842963
+      ],
+      "balanced_point_joint95": [
+        0.03209507096251363,
+        0.10156673257842963
+      ],
+      "balanced_regret_upper_joint95": 0.07409703168715223,
+      "balanced_within_five_points": false
+    },
+    {
+      "plan_id": 10,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 1333333,
+        "monitoring_disclosure": 0.2500000937499883
+      },
+      "floor_id": 1,
+      "floor": 0.005,
+      "rate_domain": [
+        0.01,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.34106875326859776,
+          "sample_variance": 0.006034279341206934,
+          "radius": 0.03048960249824414,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.31057915077035364,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.3195397223070934,
+          "sample_variance": 0.006433176547459675,
+          "radius": 0.030822360932779007,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.28871736137431436,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.29894698761737515,
+          "sample_variance": 0.006826772364664442,
+          "radius": 0.03114072848631788,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.26780625913105727,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.2793904746343757,
+          "sample_variance": 0.007211476536887844,
+          "radius": 0.03144314995002244,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.24794732468435327,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.2609645119278754,
+          "sample_variance": 0.007583677061535647,
+          "radius": 0.031728155298785435,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.22923635662908998,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.2437573244456661,
+          "sample_variance": 0.007939794411146893,
+          "radius": 0.031994367948256636,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.21176295649740948,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.22785061654745645,
+          "sample_variance": 0.008276335026021864,
+          "radius": 0.03224051161858072,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.19561010492887573,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.2133192392916422,
+          "sample_variance": 0.008589943028205602,
+          "radius": 0.03246541587925822,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.18085382341238398,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.2002309343572195,
+          "sample_variance": 0.008877449241794904,
+          "radius": 0.03266802048379493,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.1675629138734246,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.18864614541357713,
+          "sample_variance": 0.009135916752191676,
+          "radius": 0.032847378629283996,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.15579876678429314,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.17861788672147344,
+          "sample_variance": 0.009362682387145386,
+          "radius": 0.033002659294146953,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.1456152274273265,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.17019165826442867,
+          "sample_variance": 0.009555393645833899,
+          "radius": 0.03313314881671936,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.1370585094477093,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.16340539675412646,
+          "sample_variance": 0.00971204073129569,
+          "radius": 0.03323825187834913,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.13016714487577732,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.15828945239056605,
+          "sample_variance": 0.009830983450941124,
+          "radius": 0.03331749204764628,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.12497196034291977,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.15486658223714908,
+          "sample_variance": 0.009910972836728218,
+          "radius": 0.033370512028219314,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.12149607020892977,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.15315195243082969,
+          "sample_variance": 0.009951167400365493,
+          "radius": 0.033397073731604436,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.11975487869922524,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.16190055920467578,
+        "sample_variance": 0.00974672978372097,
+        "radius": 0.03326141175889907,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.1286391474457767,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.16190055920481922,
+        "sample_variance": 0.009746729783717618,
+        "radius": 0.03326141175889684,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.19516197096371607,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.11975487869922524,
+        0.19516197096371607
+      ],
+      "balanced_point_joint95": [
+        0.1286391474457767,
+        0.19516197096371607
+      ],
+      "balanced_regret_upper_joint95": 0.07540709226449083,
+      "balanced_within_five_points": false
+    },
+    {
+      "plan_id": 10,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 1333333,
+        "monitoring_disclosure": 0.2500000937499883
+      },
+      "floor_id": 2,
+      "floor": 0.01,
+      "rate_domain": [
+        0.02,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.937023473307316,
+          "sample_variance": 5.988454681164677e-05,
+          "radius": 0.021277576551909896,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9157458967554061,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.9204174179330644,
+          "sample_variance": 9.437282172027781e-05,
+          "radius": 0.02153784159491979,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8988795763381446,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.9007782435338976,
+          "sample_variance": 0.0001449962851480978,
+          "radius": 0.02184431235806321,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8789339311758344,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.8779794118625284,
+          "sample_variance": 0.0002170585993357145,
+          "radius": 0.02219880374358569,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8557806081189426,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.8520304979069517,
+          "sample_variance": 0.0003163826981639302,
+          "radius": 0.02260107566212152,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8294294222448302,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.8231160117148064,
+          "sample_variance": 0.00044868883052931685,
+          "radius": 0.023048245359348605,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.8000677663554578,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.7916291867193612,
+          "sample_variance": 0.0006186373233838064,
+          "radius": 0.02353427167826288,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.7680949150410984,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.7581949643912896,
+          "sample_variance": 0.0008285781347407643,
+          "radius": 0.024049599049527547,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.7341453653417621,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.7236760303632852,
+          "sample_variance": 0.001077159500254917,
+          "radius": 0.024581055904218396,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.6990949744590668,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.6891563820107743,
+          "sample_variance": 0.0013580700955533969,
+          "radius": 0.02511209384863106,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.6640442881621432,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.6558987776150671,
+          "sample_variance": 0.0016592818010420347,
+          "radius": 0.02562342621894219,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.6302753513961249,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.6252755472379472,
+          "sample_variance": 0.00196317129249106,
+          "radius": 0.02609407697783736,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5991814702601098,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.5986763234617068,
+          "sample_variance": 0.002247785655662437,
+          "radius": 0.02650278789594676,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5721735355657601,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.5774006191271138,
+          "sample_variance": 0.0024892730870572605,
+          "radius": 0.026829663695731035,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5505709554313828,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.5625469298815553,
+          "sample_variance": 0.002665172601426434,
+          "radius": 0.0270578756073796,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5354890542741757,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.5549122158444508,
+          "sample_variance": 0.0027579470189206807,
+          "radius": 0.02717520881336427,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.5277370070310865,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.5846792343501321,
+        "sample_variance": 0.002402934340260116,
+        "radius": 0.02671469711276776,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.5579645372373644,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.5846792343502168,
+        "sample_variance": 0.002402934340259104,
+        "radius": 0.0267146971127664,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.6113939314629833,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.5277370070310865,
+        0.6113939314629833
+      ],
+      "balanced_point_joint95": [
+        0.5579645372373644,
+        0.6113939314629833
+      ],
+      "balanced_regret_upper_joint95": 0.08365692443189676,
+      "balanced_within_five_points": false
+    },
+    {
+      "plan_id": 10,
+      "plan": {
+        "total_emitted": 4000000,
+        "calibration_emitted": 1333333,
+        "monitoring_disclosure": 0.2500000937499883
+      },
+      "floor_id": 3,
+      "floor": 0.02,
+      "rate_domain": [
+        0.04,
+        1.0
+      ],
+      "bias_domain": [
+        0.0,
+        1.0
+      ],
+      "cells": [
+        {
+          "cell_id": 0,
+          "bias_bounds": [
+            0.0,
+            0.03125
+          ],
+          "mean": 0.9999998798404581,
+          "sample_variance": 7.149765101342959e-16,
+          "radius": 0.020258346348443625,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797415334920145,
+          "trials": 1024
+        },
+        {
+          "cell_id": 1,
+          "bias_bounds": [
+            0.03125,
+            0.0625
+          ],
+          "mean": 0.999999619028999,
+          "sample_variance": 6.4834537980147055e-15,
+          "radius": 0.020258353431881378,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797412655971176,
+          "trials": 1024
+        },
+        {
+          "cell_id": 2,
+          "bias_bounds": [
+            0.0625,
+            0.09375
+          ],
+          "mean": 0.9999988446336442,
+          "sample_variance": 5.382796317309582e-14,
+          "radius": 0.020258373384342845,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797404712493013,
+          "trials": 1024
+        },
+        {
+          "cell_id": 3,
+          "bias_bounds": [
+            0.09375,
+            0.125
+          ],
+          "mean": 0.9999966616037365,
+          "sample_variance": 4.061790424132696e-13,
+          "radius": 0.020258426767860018,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797382348358764,
+          "trials": 1024
+        },
+        {
+          "cell_id": 4,
+          "bias_bounds": [
+            0.125,
+            0.15625
+          ],
+          "mean": 0.9999908525832548,
+          "sample_variance": 2.761251658074998e-12,
+          "radius": 0.020258561688175847,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.979732290895079,
+          "trials": 1024
+        },
+        {
+          "cell_id": 5,
+          "bias_bounds": [
+            0.15625,
+            0.1875
+          ],
+          "mean": 0.9999763585486073,
+          "sample_variance": 1.674270051436774e-11,
+          "radius": 0.020258881752687974,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9797174767959194,
+          "trials": 1024
+        },
+        {
+          "cell_id": 6,
+          "bias_bounds": [
+            0.1875,
+            0.21875
+          ],
+          "mean": 0.9999426985927841,
+          "sample_variance": 8.958312353866057e-11,
+          "radius": 0.020259589433494343,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9796831091592897,
+          "trials": 1024
+        },
+        {
+          "cell_id": 7,
+          "bias_bounds": [
+            0.21875,
+            0.25
+          ],
+          "mean": 0.9998705124309943,
+          "sample_variance": 4.1842323607838205e-10,
+          "radius": 0.020261036992339058,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9796094754386553,
+          "trials": 1024
+        },
+        {
+          "cell_id": 8,
+          "bias_bounds": [
+            0.25,
+            0.28125
+          ],
+          "mean": 0.9997287314944876,
+          "sample_variance": 1.6885457792682762e-09,
+          "radius": 0.020263755014010613,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.979464976480477,
+          "trials": 1024
+        },
+        {
+          "cell_id": 9,
+          "bias_bounds": [
+            0.28125,
+            0.3125
+          ],
+          "mean": 0.9994759172520926,
+          "sample_variance": 5.832483938417637e-09,
+          "radius": 0.020268401557284012,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9792075156948086,
+          "trials": 1024
+        },
+        {
+          "cell_id": 10,
+          "bias_bounds": [
+            0.3125,
+            0.34375
+          ],
+          "mean": 0.9990705929848,
+          "sample_variance": 1.7105274999870095e-08,
+          "radius": 0.02027556870724772,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9787950242775524,
+          "trials": 1024
+        },
+        {
+          "cell_id": 11,
+          "bias_bounds": [
+            0.34375,
+            0.375
+          ],
+          "mean": 0.9984930801505756,
+          "sample_variance": 4.231126864293049e-08,
+          "radius": 0.020285435036176087,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9782076451143995,
+          "trials": 1024
+        },
+        {
+          "cell_id": 12,
+          "bias_bounds": [
+            0.375,
+            0.40625
+          ],
+          "mean": 0.997773432878509,
+          "sample_variance": 8.781508273641411e-08,
+          "radius": 0.020297373043071925,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9774760598354371,
+          "trials": 1024
+        },
+        {
+          "cell_id": 13,
+          "bias_bounds": [
+            0.40625,
+            0.4375
+          ],
+          "mean": 0.9970095668142633,
+          "sample_variance": 1.5233053732944047e-07,
+          "radius": 0.020309748362311877,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9766998184519514,
+          "trials": 1024
+        },
+        {
+          "cell_id": 14,
+          "bias_bounds": [
+            0.4375,
+            0.46875
+          ],
+          "mean": 0.9963560520752464,
+          "sample_variance": 2.20261097699427e-07,
+          "radius": 0.020320156606574744,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9760358954686716,
+          "trials": 1024
+        },
+        {
+          "cell_id": 15,
+          "bias_bounds": [
+            0.46875,
+            0.5
+          ],
+          "mean": 0.9959763678617893,
+          "sample_variance": 2.650241879331266e-07,
+          "radius": 0.020326147426636226,
+          "side": "lower",
+          "delta": 0.0002777777777777778,
+          "endpoint": 0.9756502204351531,
+          "trials": 1024
+        }
+      ],
+      "balanced_lower": {
+        "mean": 0.9975261955502591,
+        "sample_variance": 1.0282781696122918e-07,
+        "radius": 0.020300577749958887,
+        "side": "lower",
+        "delta": 0.0002777777777777778,
+        "endpoint": 0.9772256178003003,
+        "trials": 1024
+      },
+      "balanced_upper": {
+        "mean": 0.997526195550261,
+        "sample_variance": 1.0282781696105635e-07,
+        "radius": 0.020300577749958852,
+        "side": "upper",
+        "delta": 0.0002777777777777778,
+        "endpoint": 1.0,
+        "trials": 1024
+      },
+      "continuous_minimum_joint95": [
+        0.9756502204351531,
+        1.0
+      ],
+      "balanced_point_joint95": [
+        0.9772256178003003,
+        1.0
+      ],
+      "balanced_regret_upper_joint95": 0.024349779564846852,
+      "balanced_within_five_points": true
+    }
+  ],
+  "direct_validation": [
+    {
+      "plan_id": 9,
+      "case_id": 0,
+      "floor_id": 0,
+      "kind": "balanced_floor",
+      "alarms": 556,
+      "trials": 8192,
+      "alarm_rate": 0.06787109375,
+      "simultaneous_ci99": [
+        0.05906631258665036,
+        0.07747967686586345
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 9,
+      "case_id": 1,
+      "floor_id": 1,
+      "kind": "balanced_floor",
+      "alarms": 1365,
+      "trials": 8192,
+      "alarm_rate": 0.1666259765625,
+      "simultaneous_ci99": [
+        0.1533295618859931,
+        0.18054067825425524
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 9,
+      "case_id": 2,
+      "floor_id": 2,
+      "kind": "balanced_floor",
+      "alarms": 4984,
+      "trials": 8192,
+      "alarm_rate": 0.6083984375,
+      "simultaneous_ci99": [
+        0.5904979001819856,
+        0.6260982304663592
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 9,
+      "case_id": 3,
+      "floor_id": 3,
+      "kind": "balanced_floor",
+      "alarms": 8178,
+      "trials": 8192,
+      "alarm_rate": 0.998291015625,
+      "simultaneous_ci99": [
+        0.9962098959191245,
+        0.9994103336368623
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 9,
+      "case_id": 4,
+      "floor_id": null,
+      "kind": "stable_honest",
+      "alarms": 326,
+      "trials": 8192,
+      "alarm_rate": 0.039794921875,
+      "simultaneous_ci99": [
+        0.03305208561436607,
+        0.04739596093293619
+      ]
+    },
+    {
+      "plan_id": 10,
+      "case_id": 0,
+      "floor_id": 0,
+      "kind": "balanced_floor",
+      "alarms": 570,
+      "trials": 8192,
+      "alarm_rate": 0.069580078125,
+      "simultaneous_ci99": [
+        0.06066787611071395,
+        0.07929282116361688
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 10,
+      "case_id": 1,
+      "floor_id": 1,
+      "kind": "balanced_floor",
+      "alarms": 1364,
+      "trials": 8192,
+      "alarm_rate": 0.16650390625,
+      "simultaneous_ci99": [
+        0.15321157355089834,
+        0.18041475348052557
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 10,
+      "case_id": 2,
+      "floor_id": 2,
+      "kind": "balanced_floor",
+      "alarms": 4802,
+      "trials": 8192,
+      "alarm_rate": 0.586181640625,
+      "simultaneous_ci99": [
+        0.5681415250146405,
+        0.6040621622440991
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 10,
+      "case_id": 3,
+      "floor_id": 3,
+      "kind": "balanced_floor",
+      "alarms": 8174,
+      "trials": 8192,
+      "alarm_rate": 0.997802734375,
+      "simultaneous_ci99": [
+        0.9955280983567453,
+        0.9991204921412069
+      ],
+      "analytic_interval_overlap": true
+    },
+    {
+      "plan_id": 10,
+      "case_id": 4,
+      "floor_id": null,
+      "kind": "stable_honest",
+      "alarms": 348,
+      "trials": 8192,
+      "alarm_rate": 0.04248046875,
+      "simultaneous_ci99": [
+        0.035509743845387014,
+        0.05030409192580218
+      ]
+    }
+  ],
+  "ancillary_pairs": 2048,
+  "direct_public_pairs": 81920,
+  "calculation_seconds": 203.73529083299945,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "source_sha256": {
+    "docs/detector-power-protocol.md": "385e119985bc0b5e3a9006560c657ec6f9d8fca154760485ca93c74816b50541",
+    "scripts/run_detector_power.py": "b0f691e5371821b920c267975ca13a1ef3a1249d8f07a1c2c0c53e78527fcdf3",
+    "src/research/detector_power.py": "e89c81fb8b26a8cab22af1631038b42e99f0d8a9832056b98d1ca7ddc1385289",
+    "src/research/calibration_protocol.py": "38dca710bbf7fdf21b20cdeb26155b949232f98ec0e6e2ad5ffc0b0769f5fb2a",
+    "src/research/exact_comparison.py": "f24323b7f1a55a73907336a3157145c72afa375c804aca5fb8a5f244cb1114fe",
+    "src/research/identifiability.py": "32a4632b81d0ac313712cff84bfdfa27bba3a8a16690930e27cd0dc283c14c37",
+    "src/research/allocation_frontier.py": "d7f95cf58cbe3b0f033976b6d54b57d5b1882692a83969c104d8e5badf9152da",
+    "scripts/run_allocation_frontier.py": "7588a79f29a98558d9d0caeb26a503d6bebed6d27e50dd26d55790e43751c37a",
+    "src/research/best_response_stability.py": "cabc3e2e4437ac6116c5cef0767c0cbf9187f882fb2e084148273416a788f43b"
+  },
+  "output_sha256": {
+    "frozen_protocol.json": "595456e2198084be9f5e665f6ed7134a269b98753d20b795c57d7c6db1b69776",
+    "ancillary_plan_9.npz": "1d5383e32188af79562dbeb8c8d35a2bf79e280216a6a3b6167090e78ccbcd5e",
+    "kernel_plan_9.npz": "ee0c850bf19e81be101c73d8cf92c33d3b9412c9964818d5b254a8e3ed109b67",
+    "conditional_plan_9.npz": "054073d3b10a6724f3fc40490311d5ebe9f49e26812b4ab108c34ddf237ea9cb",
+    "direct_plan_9_case_0.npz": "bbfd3d3db6501481787009089bd6a5d2148a8518a851836df5ca6e2e6835d7e4",
+    "direct_plan_9_case_1.npz": "49c1d890c284b430c25d39b122efe52a753d62473956e90bf2cc9496417c7bf8",
+    "direct_plan_9_case_2.npz": "01b4fd697e1c2c58e5a92e8a742b9a74534fa4d4f1b4beac0a3e7832b8ab3e44",
+    "direct_plan_9_case_3.npz": "5bbc6a04630adfebf5fbf722db90fa9a0876929bfa111839f35cf64921b78c3f",
+    "direct_plan_9_case_4.npz": "f65c1f03e29bb3945e693bf0940e6ca3cbf9b1026ab8e43719e31fd9fd55c3d8",
+    "ancillary_plan_10.npz": "90f3bc6562e466da327320d7a6f855b1c3a64dc594826810cbbf5cd533199809",
+    "kernel_plan_10.npz": "40f0c642a6e923ce4b9e7c99ce31f7c00b85ed3ecadca5e69007d2f6de910be6",
+    "conditional_plan_10.npz": "78c0ddc507a0fe1074764ac29c4e846d5c1927bc47ff837906a09cf4a486e0b5",
+    "direct_plan_10_case_0.npz": "7f1e19fd6a0d2aea99723f4ec786e6c50ea104a0c725612777cac7b9595d2bac",
+    "direct_plan_10_case_1.npz": "cd17ca97de84c42042f998fb320d749e1a69183400ce4f2c4c3fd35d3a028960",
+    "direct_plan_10_case_2.npz": "a4fd92c715de5c5ea1effc3918f717c7558f617d0f41c476fb7f1bcbf4d445eb",
+    "direct_plan_10_case_3.npz": "039490e0502d03b9bdaea87fd37dec45a630e51febecf45427cef54ef96f3bec",
+    "direct_plan_10_case_4.npz": "909fb07ee597a75f6a59e89f2297cf049ea71a67c9a868e965af5f6d4f1ad299"
+  },
+  "limits": [
+    "Only fixed nominal stable iid IR model and two predeclared allocations.",
+    "Subevent monotonicity is not full-detector power monotonicity.",
+    "Conditional integration removes sampled errors, not random denominators.",
+    "Floating arithmetic is not an outward-rounded security certificate.",
+    "No exact balanced optimum, final-key security or publication novelty claim."
+  ]
+}

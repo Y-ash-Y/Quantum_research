@@ -6,9 +6,127 @@ __pycache__/
 data/raw/
 data/processed/
 
-# Ignore generated result artifacts, but keep the committed figures
-# that the report and README reference.
+# Generated results are private unless explicitly reviewed below.
 results/*
-!results/figures/
-results/figures/*
-!results/figures/*.png
+
+# Keep only this reviewed, reproducible benchmark and its session audit.
+# Other exploratory/generated benchmark runs remain ignored.
+!results/benchmarks/
+results/benchmarks/*
+!results/benchmarks/fixed-policy-v2/
+results/benchmarks/fixed-policy-v2/*
+!results/benchmarks/fixed-policy-v2/benchmark.json
+!results/benchmarks/fixed-policy-v2/session_audit.csv.gz
+
+!results/benchmarks/robustness-v2/
+results/benchmarks/robustness-v2/*
+!results/benchmarks/robustness-v2/robustness.json
+!results/benchmarks/robustness-v2/session_audit.csv.gz
+!results/benchmarks/robustness-v2/diagnostics.json
+
+!results/benchmarks/count-aware-v2/
+results/benchmarks/count-aware-v2/*
+!results/benchmarks/count-aware-v2/counts.json
+!results/benchmarks/count-aware-v2/session_audit.csv.gz
+
+!results/benchmarks/nuisance-v2/
+results/benchmarks/nuisance-v2/*
+!results/benchmarks/nuisance-v2/nuisance.json
+!results/benchmarks/nuisance-v2/session_audit.csv.gz
+
+!results/benchmarks/loss-aware-v2/
+results/benchmarks/loss-aware-v2/*
+!results/benchmarks/loss-aware-v2/loss_aware.json
+!results/benchmarks/loss-aware-v2/session_audit.csv.gz
+!results/benchmarks/loss-aware-v2/independent_audit.json
+
+!results/benchmarks/window-power-v2/
+results/benchmarks/window-power-v2/*
+!results/benchmarks/window-power-v2/window_power.json
+!results/benchmarks/window-power-v2/session_audit.csv.gz
+!results/benchmarks/window-power-v2/independent_audit.json
+
+# Reviewed Step 11 drift pilot only; keep the raw replay evidence with its summary.
+!results/benchmarks/drift-pilot-v1/
+results/benchmarks/drift-pilot-v1/*
+!results/benchmarks/drift-pilot-v1/pilot.json
+!results/benchmarks/drift-pilot-v1/public_counts.csv.gz
+!results/benchmarks/drift-pilot-v1/audit.json
+
+# Fresh Step 12 comparison: preserve paired decisions and replay evidence.
+!results/benchmarks/direct-drift-pilot-v1/
+results/benchmarks/direct-drift-pilot-v1/*
+!results/benchmarks/direct-drift-pilot-v1/pilot.json
+!results/benchmarks/direct-drift-pilot-v1/public_counts.csv.gz
+!results/benchmarks/direct-drift-pilot-v1/audit.json
+
+# Final bounded classical audit: reviewed summary, selected replay and checks.
+!results/benchmarks/classical-drift-audit-v1/
+results/benchmarks/classical-drift-audit-v1/*
+!results/benchmarks/classical-drift-audit-v1/audit.json
+!results/benchmarks/classical-drift-audit-v1/decisions.csv.gz
+!results/benchmarks/classical-drift-audit-v1/verification.json
+
+# Lightweight protocols and summaries for reproducible research studies.
+# Large generated arrays and earlier failed/incomplete runs remain local.
+!results/benchmarks/calibration-protocol-v1/
+results/benchmarks/calibration-protocol-v1/*
+!results/benchmarks/calibration-protocol-v1/pilot.json
+!results/benchmarks/calibration-protocol-v1/audit.json
+!results/benchmarks/allocation-frontier-v1/
+results/benchmarks/allocation-frontier-v1/*
+!results/benchmarks/allocation-frontier-v1/frontier.json
+!results/benchmarks/allocation-frontier-v1/frozen_selections.json
+!results/benchmarks/allocation-frontier-v1/audit.json
+!results/benchmarks/exact-comparison-v1/
+results/benchmarks/exact-comparison-v1/*
+!results/benchmarks/exact-comparison-v1/comparison.json
+!results/benchmarks/exact-comparison-v1/frozen_selections.json
+!results/benchmarks/exact-comparison-v1/audit.json
+!results/benchmarks/best-response-stability-v2/
+results/benchmarks/best-response-stability-v2/*
+!results/benchmarks/best-response-stability-v2/stability.json
+!results/benchmarks/best-response-stability-v2/frozen_selections.json
+!results/benchmarks/best-response-stability-v2/audit.json
+!results/benchmarks/off-grid-geometry-v1/
+results/benchmarks/off-grid-geometry-v1/*
+!results/benchmarks/off-grid-geometry-v1/geometry.json
+!results/benchmarks/off-grid-geometry-v1/frozen_protocol.json
+!results/benchmarks/off-grid-geometry-v1/audit.json
+!results/benchmarks/detector-power-v1/
+results/benchmarks/detector-power-v1/*
+!results/benchmarks/detector-power-v1/power.json
+!results/benchmarks/detector-power-v1/frozen_protocol.json
+!results/benchmarks/detector-power-v1/audit.json
+
+# Technical documentation allowlist; unrelated working notes stay local.
+docs/*
+!docs/physics-model.md
+!docs/adaptive-evaluation.md
+!docs/fair-benchmark.md
+!docs/robustness-benchmark.md
+!docs/count-aware-benchmark.md
+!docs/nuisance-stress.md
+!docs/loss-aware-benchmark.md
+!docs/window-power-benchmark.md
+!docs/calibration-protocol.md
+!docs/allocation-frontier.md
+!docs/exact-detector-comparison.md
+!docs/best-response-stability.md
+!docs/off-grid-protocol.md
+!docs/off-grid-geometry.md
+!docs/detector-power-protocol.md
+!docs/detector-power.md
+!docs/bounded-drift-model.md
+!docs/drift-implementation.md
+!docs/drift-pilot-protocol.md
+!docs/drift-pilot.md
+!docs/direct-drift-test.md
+!docs/direct-drift-protocol.md
+!docs/direct-drift-results.md
+!docs/classical-audit-protocol.md
+!docs/classical-baseline-audit.md
+!docs/figures/
+docs/figures/*
+!docs/figures/drift-pilot-v1/
+!docs/figures/direct-drift-pilot-v1/

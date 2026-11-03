@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "selected_original_pairs": 12288,
+  "rates": 72,
+  "paired_effects": 24,
+  "original_and_comparator_hashes": "match",
+  "unresolved_directions": 3,
+  "limits": "Independent bookkeeping and interval inversion; not a separate-library/hardware/power certificate.",
+  "verifier_sha256": "34d349806ca1bcc1784d384467a8ccd2b5897dea18ed2e421fd09000846633e6"
+}
