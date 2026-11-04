@@ -204,7 +204,7 @@ An exploratory rerun alone does not turn historical claims into valid claims.
 From repository root:
 
 ```bash
-python -m pip install -r quantum-ai-lab/requirements-adaptive.txt
+python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 

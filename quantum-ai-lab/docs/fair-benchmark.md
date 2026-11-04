@@ -136,7 +136,7 @@ Higher detection with materially higher FPR is not a fair advantage.
 From the repository root:
 
 ```bash
-python -m pip install -r quantum-ai-lab/requirements-adaptive.txt
+python -m pip install -r requirements.txt
 python -m pytest -q
 python quantum-ai-lab/scripts/run_fair_benchmark.py \
   --output quantum-ai-lab/results/benchmarks/my-fresh-run

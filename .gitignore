@@ -1,5 +1,6 @@
 # Local environments
 .venv/
+.venv-*/
 venv/
 env/
 quantum_project/
@@ -54,6 +55,7 @@ htmlcov/
 /quantum-ai-lab/paper/
 /quantum-ai-lab/interview_book/
 /output/*
+!/output/README.md
 !/output/pdf/
 /output/pdf/*
 !/output/pdf/quantum_ai_lab_final_report.pdf

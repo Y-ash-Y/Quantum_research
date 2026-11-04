@@ -65,7 +65,7 @@ def notebook():
         pair, two fixed allocations with equal expected sacrifice/candidates.
         The raw-bit proxy r/2 is not mutual information or final-key leakage.
         The new design uses standard tools and does not imply publication priority.
-        Setup uses [requirements-notebooks.txt](../requirements-notebooks.txt).
+        Setup uses the root [requirements.txt](../../requirements.txt).
         Build with `python quantum-ai-lab/scripts/build_direct_drift_notebook.py`.
         This notebook reads frozen evidence and recreates figures, not simulation results.
     ''')

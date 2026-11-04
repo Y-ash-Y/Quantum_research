@@ -202,7 +202,7 @@ aggregate classifier can never discriminate them.
 From repository root, with a Python 3.12 environment activated:
 
 ```bash
-python -m pip install -r quantum-ai-lab/requirements-physics.txt
+python -m pip install -r requirements.txt
 python -m pytest -q quantum-ai-lab/tests/test_physics.py
 ```
 

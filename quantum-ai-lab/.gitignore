@@ -8,11 +8,13 @@ data/processed/
 
 # Generated results are private unless explicitly reviewed below.
 results/*
+!results/README.md
 
 # Keep only this reviewed, reproducible benchmark and its session audit.
 # Other exploratory/generated benchmark runs remain ignored.
 !results/benchmarks/
 results/benchmarks/*
+!results/benchmarks/README.md
 !results/benchmarks/fixed-policy-v2/
 results/benchmarks/fixed-policy-v2/*
 !results/benchmarks/fixed-policy-v2/benchmark.json
@@ -101,6 +103,7 @@ results/benchmarks/detector-power-v1/*
 
 # Technical documentation allowlist; unrelated working notes stay local.
 docs/*
+!docs/README.md
 !docs/physics-model.md
 !docs/adaptive-evaluation.md
 !docs/fair-benchmark.md

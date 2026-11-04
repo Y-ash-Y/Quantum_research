@@ -36,7 +36,7 @@ filtered, no result is tuned and the old pilot is not overwritten.
 - [Replay audit](../results/benchmarks/direct-drift-pilot-v1/audit.json).
 - [Executed companion notebook](../notebooks/direct_drift_pilot.ipynb).
 - [Detector](../src/research/direct_drift_detector.py), [runner](../scripts/run_direct_drift_pilot.py), [auditor](../scripts/audit_direct_drift_pilot.py).
-- [Notebook builder](../scripts/build_direct_drift_notebook.py) and [tooling dependencies](../requirements-notebooks.txt).
+- [Notebook builder](../scripts/build_direct_drift_notebook.py) and [tooling dependencies](../../requirements.txt).
 
 Frozen numerical environment: Python 3.12.14, NumPy 2.5.3 and SciPy 1.18.1.
 Eleven source fingerprints and the raw-archive fingerprint are saved. Only the
@@ -182,7 +182,7 @@ Run from the repository root with the project environment:
 ```sh
 python quantum-ai-lab/scripts/run_direct_drift_pilot.py --output quantum-ai-lab/results/benchmarks/direct-drift-pilot-v2
 python quantum-ai-lab/scripts/audit_direct_drift_pilot.py quantum-ai-lab/results/benchmarks/direct-drift-pilot-v1
-python -m pip install -r quantum-ai-lab/requirements-notebooks.txt
+python -m pip install -r requirements.txt
 python quantum-ai-lab/scripts/build_direct_drift_notebook.py
 ```
 

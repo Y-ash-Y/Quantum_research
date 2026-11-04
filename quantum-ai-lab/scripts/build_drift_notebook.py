@@ -1,6 +1,6 @@
 """Build and execute the Step 11 companion without modifying frozen evidence.
 
-Run with the project environment after installing requirements-notebooks.txt.
+Run with the project environment after installing the root requirements.txt.
 The kernel uses this interpreter; no global kernel registration is performed.
 """
 import argparse
@@ -43,7 +43,7 @@ def notebook():
         ## Context & Methods
         Read [the frozen protocol](../docs/drift-pilot-protocol.md),
         [the model/proof](../docs/bounded-drift-model.md) and
-        [the closest-paper comparison](../docs/closest-paper-comparison.md).
+        [the later classical baseline audit](../docs/classical-baseline-audit.md).
         **Why:** distinguish an attack from ordinary allowed between-block error drift,
         not merely separate simulator labels. The two rules see the same public counts.
         Their alpha=5% upper false-alarm guarantees are equal, not their attained FPRs.
@@ -61,7 +61,7 @@ def notebook():
         overlap. The r/2 raw-bit proxy is neither mutual information nor final secret-key leakage.
         Emission/sacrifice matching is not equal hardware cost or secure-key yield.
 
-        Setup: `python -m pip install -r quantum-ai-lab/requirements-notebooks.txt`.
+        Setup from the repository root: `python -m pip install -r requirements.txt`.
         Run `python quantum-ai-lab/scripts/build_drift_notebook.py` using the same
         environment as the frozen runner. Rerunning this notebook reads evidence and
         recreates figures; it does not rerun, filter or retune the pilot.

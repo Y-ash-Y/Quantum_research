@@ -29,7 +29,7 @@ pairs = 110,592 pairs** and **432** saved alarm rates. No row was excluded.
 - [Replay audit](../results/benchmarks/drift-pilot-v1/audit.json).
 - [Executed companion notebook](../notebooks/drift_pilot.ipynb).
 - [Runner](../scripts/run_drift_pilot.py) and [auditor](../scripts/audit_drift_pilot.py).
-- [Notebook builder](../scripts/build_drift_notebook.py) and [optional tooling](../requirements-notebooks.txt).
+- [Notebook builder](../scripts/build_drift_notebook.py) and [notebook tooling](../../requirements.txt).
 
 Frozen numerical environment: Python 3.12.14, NumPy 2.5.3, SciPy 1.18.1.
 Seed=2026100911 with separate calibration/monitoring streams and independently
@@ -42,7 +42,7 @@ From the repository root, using its environment:
 ```sh
 python quantum-ai-lab/scripts/run_drift_pilot.py --output quantum-ai-lab/results/benchmarks/drift-pilot-v2
 python quantum-ai-lab/scripts/audit_drift_pilot.py quantum-ai-lab/results/benchmarks/drift-pilot-v1
-python -m pip install -r quantum-ai-lab/requirements-notebooks.txt
+python -m pip install -r requirements.txt
 python quantum-ai-lab/scripts/build_drift_notebook.py
 ```
 
