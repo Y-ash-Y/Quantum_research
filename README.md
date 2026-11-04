@@ -12,7 +12,7 @@ It combines a physically explicit noise model, classical machine-learning
 baselines, finite-sample statistical tests, and calibration/disclosure resource
 accounting.
 
-[Read the final report](output/pdf/quantum_ai_lab_final_report.pdf)
+[Read the final report](final_report.pdf)
 
 ## Start here
 
